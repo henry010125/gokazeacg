@@ -2,14 +2,15 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130491192-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130491192-3"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'UA-130491192-2');
+        gtag('config', 'UA-130491192-3');
     </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>ReBIRTH for you</title>
@@ -408,6 +409,7 @@
                 <br />
                 <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
                 <button type="button" class="btn btn-primary" onclick="video16_2()">備用節點</button>
+                <button style="float: right;" type="button" class="btn btn-primary" onclick="jumpback()">回上一頁</button>
             </div>
 
         </div>
@@ -451,6 +453,11 @@
         window.players = players;
     </script>
     <script type="text/javascript" src="/線上看/2020/冬/ReBIRTH_for_you/sc.js"></script>
+    <script>
+        function jumpback() {
+            window.location.href = "/線上看/2020/冬/"
+        }
+    </script>
 </body>
 
 </html>
