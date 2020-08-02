@@ -2,25 +2,25 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130491192-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130491192-3"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'UA-130491192-2');
+        gtag('config', 'UA-130491192-3');
     </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>
-      
+
     </title>
     <!--bootstrap 4.1 CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" media="all" href="/css/plyr.css">
     <script src="/stopdebugger.js"></script>
-    <link rel="stylesheet" href="/css/APlayer.min.css">
 
 </head>
 
@@ -77,8 +77,10 @@
     </nav>
     <div class="onlinepage">
         <h2>
-          
+
         </h2>
+        <p>請使用主要節點觀看，備用節點伺服器流量需收費，看在我乾癟的錢包份上能別用就盡量別用<br />位於某些地區的民眾可能無法觀看，這不是我能解決的，要怪就怪高牆吧
+        </p>
         <div style="height: 50px;"></div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
@@ -133,13 +135,29 @@
                 <a class="nav-link" id="twelve-tab" data-toggle="tab" href="#twelve" role="tab" aria-controls="twelve"
                     aria-selected="false">12</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" id="thirtenth-tab" data-toggle="tab" href="#thirtenth" role="tab"
+                    aria-controls="thirtenth" aria-selected="false">13</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="fourtenth-tab" data-toggle="tab" href="#fourtenth" role="tab"
+                    aria-controls="fourtenth" aria-selected="false">14</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="fiftenth-tab" data-toggle="tab" href="#fiftenth" role="tab"
+                    aria-controls="fiftenth" aria-selected="false">15</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="sixtenth-tab" data-toggle="tab" href="#sixtenth" role="tab"
+                    aria-controls="sixtenth" aria-selected="false">16</a>
+            </li>
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <div style="height: 50px;"></div>
                 <h3>故事大綱</h3>
                 <p style="max-width: 800px;text-align: center;margin:0px auto;">
-                    
+
                 </p>
                 <br />
                 <div id="carouselExampleIndicators" class="carousel slide ccdgfk" data-ride="carousel">
@@ -150,8 +168,8 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100"
-                                src="https://drive.google.com/uc?export=view&id="
+                            <img class="d-block" style="max-height: 600px;width:auto;margin: 0px auto;"
+                                src="https://drive.google.com/uc?export=view&id=
                                 alt="First slide">
                         </div>
                         <div class="carousel-item">
@@ -174,8 +192,6 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <div style="height: 20px;"></div>
-                <p style="font-size: xx-large;">PV</p>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         
@@ -187,126 +203,216 @@
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video1"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video1_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video2"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video2_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="thired" role="tabpanel" aria-labelledby="thired-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video3"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video3_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video4"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video4_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="fifth" role="tabpanel" aria-labelledby="fifth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video5"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video5_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="sixth" role="tabpanel" aria-labelledby="sixth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video6"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video6_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="seventh" role="tabpanel" aria-labelledby="seventh-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video7"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video7_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="eighth" role="tabpanel" aria-labelledby="eighth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video8"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video8_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="ninth" role="tabpanel" aria-labelledby="ninth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video9"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video9_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="tenth" role="tabpanel" aria-labelledby="tenth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video10"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video10_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="eleventh" role="tabpanel" aria-labelledby="eleventh-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video11"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video11_2()">備用節點</button>
             </div>
             <div class="tab-pane fade" id="twelve" role="tabpanel" aria-labelledby="twelve-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video12"
-                            poster="https://drive.google.com/uc?export=view&id=poster"
+                            poster="https://drive.google.com/uc?export=view&id="
                             preload="none" src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video12_2()">備用節點</button>
             </div>
+            <div class="tab-pane fade" id="thirtenth" role="tabpanel" aria-labelledby="thirtenth-tab">
+                <div style="height: 20px;"></div>
+                <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
+                    <div style="width: 100%;height: 100%;">
+                        <video id="video13"
+                            poster="https://drive.google.com/uc?export=view&id="
+                            preload="none" src=""></video>
+                    </div>
+                </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video13_2()">備用節點</button>
+            </div>
+            <div class="tab-pane fade" id="fourtenth" role="tabpanel" aria-labelledby="fourtenth-tab">
+                <div style="height: 20px;"></div>
+                <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
+                    <div style="width: 100%;height: 100%;">
+                        <video id="video14"
+                            poster="https://drive.google.com/uc?export=view&id="
+                            preload="none" src=""></video>
+                    </div>
+                </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video14_2()">備用節點</button>
+            </div>
+            <div class="tab-pane fade" id="fiftenth" role="tabpanel" aria-labelledby="fiftenth-tab">
+                <div style="height: 20px;"></div>
+                <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
+                    <div style="width: 100%;height: 100%;">
+                        <video id="video15"
+                            poster="https://drive.google.com/uc?export=view&id="
+                            preload="none" src=""></video>
+                    </div>
+                </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video15_2()">備用節點</button>
+            </div>
+            <div class="tab-pane fade" id="sixtenth" role="tabpanel" aria-labelledby="sixtenth-tab">
+                <div style="height: 20px;"></div>
+                <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
+                    <div style="width: 100%;height: 100%;">
+                        <video id="video16"
+                            poster="https://drive.google.com/uc?export=view&id="
+                            preload="none" src=""></video>
+                    </div>
+                </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video16_2()">備用節點</button>
+                <button style="float: right;" type="button" class="btn btn-primary" onclick="jumpback()">回上一頁</button>
+            </div>
+
         </div>
     </div>
     <div class="footbar">
@@ -318,9 +424,9 @@
     <script>
         const ap = new APlayer({
             container: document.getElementById('aplayer'),
-            listFolded: false,
+            listFolded: true,
             fixed: true,
-            listMaxHeight: 230,
+            listMaxHeight: 90,
             loop: 'none',
             preload: 'none',
             lrcType: 0,
@@ -332,16 +438,10 @@
                     cover: 'https://drive.google.com/uc?export=view&id=',
                     theme: '#ebd0c2'
                 },
-                {
-                    name: '',
-                    artist: '',
-                    url: 'https://drive.google.com/uc?export=view&id=',
-                    cover: 'https://drive.google.com/uc?export=view&id=',
-                    theme: '#46718b'
-                },
             ]
         });
     </script>
+    <link rel="stylesheet" href="/css/APlayer.min.css">
     <!--bootstrap 4.1 Javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -353,7 +453,12 @@
         const players = Plyr.setup('video', { captions: { active: true } });
         window.players = players;
     </script>
-    <script type="text/javascript" src="/線上看/2020/冬//.js"></script>
+    <script type="text/javascript" src="/線上看/2020/冬//sc.js"></script>
+    <script>
+        function jumpback() {
+            window.location.href = "/線上看/2020/冬/"
+        }
+    </script>
 </body>
 
 </html>
