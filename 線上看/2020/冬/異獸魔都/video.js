@@ -62,49 +62,49 @@ function video12_1() {
 
 //備用節點
 function video1_2() {
-    document.getElementById('video1').src = "https://drive.google.com/uc?export=view&id=1Gh3vnNiBAOAf_aA-Bml7-jupG7Z_BdJV"
+    document.getElementById('video1').src = "https://www.googleapis.com/drive/v3/files/1Gh3vnNiBAOAf_aA-Bml7-jupG7Z_BdJV?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video2_2() {
-    document.getElementById("video2").src = "https://drive.google.com/uc?export=view&id=1Ujw9wkSyzt0YiVsoMtbG0Zk-rI8IBaDX"
+    document.getElementById("video2").src = "https://www.googleapis.com/drive/v3/files/1Ujw9wkSyzt0YiVsoMtbG0Zk-rI8IBaDX?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video3_2() {
-    document.getElementById("video3").src = "https://drive.google.com/uc?export=view&id=1iQfcnwrcjNtJKpdZgsQOHNMO7KZ4O0nW"
+    document.getElementById("video3").src = "https://www.googleapis.com/drive/v3/files/1iQfcnwrcjNtJKpdZgsQOHNMO7KZ4O0nW?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video4_2() {
-    document.getElementById("video4").src = "https://drive.google.com/uc?export=view&id=1t7dzFaVBIq9QG0TkkjN9th63ERy3vvk0"
+    document.getElementById("video4").src = "https://www.googleapis.com/drive/v3/files/1t7dzFaVBIq9QG0TkkjN9th63ERy3vvk0?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video5_2() {
-    document.getElementById("video5").src = "https://drive.google.com/uc?export=view&id=1KOvquxH4IcFiJSlVebyRH8MO-fJjlYDf"
+    document.getElementById("video5").src = "https://www.googleapis.com/drive/v3/files/1KOvquxH4IcFiJSlVebyRH8MO-fJjlYDf?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video6_2() {
-    document.getElementById("video6").src = "https://drive.google.com/uc?export=view&id=1fifpWhpFqHlV2AL1PZ5xadDU6Rcmi049"
+    document.getElementById("video6").src = "https://www.googleapis.com/drive/v3/files/1fifpWhpFqHlV2AL1PZ5xadDU6Rcmi049?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video7_2() {
-    document.getElementById("video7").src = "https://drive.google.com/uc?export=view&id=1qfZ34Va846tfJMfu2IRWhrSOOZPJOor5"
+    document.getElementById("video7").src = "https://www.googleapis.com/drive/v3/files/1qfZ34Va846tfJMfu2IRWhrSOOZPJOor5?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video8_2() {
-    document.getElementById("video8").src = "https://drive.google.com/uc?export=view&id=1z2g_9NPYliZ_tnovyh4Bd5SPanoW4oca"
+    document.getElementById("video8").src = "https://www.googleapis.com/drive/v3/files/1z2g_9NPYliZ_tnovyh4Bd5SPanoW4oca?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video9_2() {
-    document.getElementById("video9").src = "https://drive.google.com/uc?export=view&id=1OplydKfjB39fVNNxirXHPU2eIT_ApRE6"
+    document.getElementById("video9").src = "https://www.googleapis.com/drive/v3/files/1OplydKfjB39fVNNxirXHPU2eIT_ApRE6?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video10_2() {
-    document.getElementById("video10").src = "https://drive.google.com/uc?export=view&id=1URVlaNnHHsEOIOgOq0d6Ifr0BZHJhnVU"
+    document.getElementById("video10").src = "https://www.googleapis.com/drive/v3/files/1URVlaNnHHsEOIOgOq0d6Ifr0BZHJhnVU?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video11_2() {
-    document.getElementById("video11").src = "https://drive.google.com/uc?export=view&id=1sRSLayfMTs2sybZOgnXge_b_wX8UUEnU"
+    document.getElementById("video11").src = "https://www.googleapis.com/drive/v3/files/1sRSLayfMTs2sybZOgnXge_b_wX8UUEnU?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
 function video12_2() {
-    document.getElementById("video12").src = "https://drive.google.com/uc?export=view&id=1m8EIiqRwRq_31g-SFjJ0G3QsMhtZ1znV"
+    document.getElementById("video12").src = "https://www.googleapis.com/drive/v3/files/1m8EIiqRwRq_31g-SFjJ0G3QsMhtZ1znV?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
