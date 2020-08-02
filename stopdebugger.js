@@ -1,5 +1,5 @@
     function consoleOpenCallback() {
-        location.href="https://gokazeacgonline.blogspot.com/";
+        location.href="https://gokazeacg.ga";
     }
     !function () {
         const handler = setInterval(() => {
