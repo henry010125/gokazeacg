@@ -1,0 +1,12 @@
+document.getElementById("video1").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EadNQEyHPNxNvUp_25YKTIkBkzattYW3UebtIk9jcYCWlQ?download=1";
+document.getElementById("video2").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EZCmn2HT52FGtuA1rZu7vlIBKl7eiEDjE8CQu_qS0S_hMQ?download=1";
+document.getElementById("video3").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EeOo3UnFEDZOgHn1n_bD97MB6lPp9HZw6QGccSRgwB-EMw?download=1";
+document.getElementById("video4").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EciCDeclEltLlghqcP7EtzcBGgbzvNam8DbXoI6kDN37JQ?download=1";
+document.getElementById("video5").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/ETo90rrxEwZPgiuj3jAdBO0BvcwcTjni57XM3-ZRtM6dXw?download=1";
+document.getElementById("video6").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EYzNRxYr6QRDo45Vlt6EQeQBYT-7O560X3VpaO2kBOc0zA?download=1";
+document.getElementById("video7").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EYvLCRgT9JtHsPyCniwl81QB1Y6tVK9xfChPIQaaXpAD4g?download=1";
+document.getElementById("video8").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EVD4bPqEpsFAmGf4X11ZxjkBwVlH3ok_9F7xLBJF-59pMw?download=1";
+document.getElementById("video9").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EYNlUhlPjDlKr9zcCH18HRkBne9I9FidYl3apJX3eMNpzQ?download=1";
+document.getElementById("video10").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EdS6ndjPPulAiI1HuxG_MZ0BT5sOLtXAwbd9htMxlUxnlQ?download=1";
+document.getElementById("video11").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EaoQ8O6cJqxFvm6o187LwmIB1Jpi5_T4QXpTCiZw6VJ88A?download=1";
+document.getElementById("video12").src = "https://gokaze-my.sharepoint.com/:v:/g/personal/2020anime_gokaze_onmicrosoft_com/EQW2OPl8vOVBuPRH0uQ0wvMBCKFHk6HK7ogfudxdZ2ku-Q?download=1";

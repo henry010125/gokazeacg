@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130491192-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130491192-2');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>線上聽音樂</title>
+    <link rel="stylesheet" href="/css/APlayer.min.css">
+</head>
+
+<body>
+    <div style="height: 10vh;"></div>
+    <div id="aplayer">
+    </div>
+    <script src="/js/APlayer.min.js"></script>
+    <script>
+        const ap = new APlayer({
+            container: document.getElementById('aplayer'),
+            listFolded: false,
+            fixed: false,
+            listMaxHeight: 500,
+            loop: 'none',
+            preload: 'none',
+            lrcType: 0,
+            audio: [
+                {
+                    name: 'Welcome トゥ 混沌',
+                    artist: '(K)NoW_NAME:Ayaka Tachibana',
+                    url: 'https://drive.google.com/uc?export=view&id=1a06Qxg9S9n-_K0kBdLih4-mNhXAtcyTE',
+                    cover: 'https://drive.google.com/uc?export=view&id=1pPRNewDsjiUMdRIDqp25rluhvrujtol3',
+                    theme: '#ebd0c2'
+                },
+                {
+                    name: 'Who am I?',
+                    artist: '(K)NoW_NAME',
+                    url: 'https://drive.google.com/uc?export=view&id=1Di_-hAqvk3qvAWun3H7d9g3F4LYQ7zRM',
+                    cover: 'https://drive.google.com/uc?export=view&id=1Df5DKwVlVQMcTG8zHga9WM9r_pg-xOMu',
+                    theme: '#46718b'
+                },
+                {
+                    name: 'Night SURFING',
+                    artist: '(K)NoW_NAME',
+                    url: 'https://drive.google.com/uc?export=view&id=1DzBTAvlzPCGmFTIxRNBOacRr_a2CS7sc',
+                    cover: 'https://drive.google.com/uc?export=view&id=1Df5DKwVlVQMcTG8zHga9WM9r_pg-xOMu',
+                    theme: '#46718b'
+                },
+                {
+                    name: 'D.D.D.D',
+                    artist: '(K)NoW_NAME',
+                    url: 'https://drive.google.com/uc?export=view&id=1E1hroFol9tmSc4Zc_gRufX6g0v7dQnv8',
+                    cover: 'https://drive.google.com/uc?export=view&id=1Df5DKwVlVQMcTG8zHga9WM9r_pg-xOMu',
+                    theme: '#46718b'
+                },
+                {
+                    name: 'Strange Meat Pie',
+                    artist: '(K)NoW_NAME',
+                    url: 'https://drive.google.com/uc?export=view&id=1E4ONkCAIP1P3JfUijQB1wIRCpEoWE5_f',
+                    cover: 'https://drive.google.com/uc?export=view&id=1Df5DKwVlVQMcTG8zHga9WM9r_pg-xOMu',
+                    theme: '#46718b'
+                },
+                {
+                    name: 'SECONDs FLY',
+                    artist: '(K)NoW_NAME',
+                    url: 'https://drive.google.com/uc?export=view&id=1E5InSLedqn8FYbPkrniM1ieeJOOEvWEd',
+                    cover: 'https://drive.google.com/uc?export=view&id=1Df5DKwVlVQMcTG8zHga9WM9r_pg-xOMu',
+                    theme: '#46718b'
+                },
+                {
+                    name: '404',
+                    artist: '(K)NoW_NAME',
+                    url: 'https://drive.google.com/uc?export=view&id=1EAb8YzJlBS5mMNWNcajmzA3slbebvmrM',
+                    cover: 'https://drive.google.com/uc?export=view&id=1Df5DKwVlVQMcTG8zHga9WM9r_pg-xOMu',
+                    theme: '#46718b'
+                },
+                {
+                    name: 'REバースGO！',
+                    artist: '鶏とナスの三ツ星シチュー',
+                    url: 'https://drive.google.com/uc?export=view&id=1TVi--0kxOIGuVFoGJGRsdRkBfmxUSQQS',
+                    cover: 'https://drive.google.com/uc?export=view&id=1Ch2qDjdop5iWi3AAROJ7k8hsLHdcIjgr',
+                    theme: '#ebd0c2'
+                },
+                {
+                    name: 'ANIMA Alicization War of Underworld -THE LAST SEASON- OP',
+                    artist: 'ReoNa',
+                    url: 'https://drive.google.com/uc?export=view&id=14a7HK-0poNfUyf6_1kJz6k9qNQRgTvnq',
+                    cover: 'https://drive.google.com/uc?export=view&id=14qYKGdeLhkdr41y-iX4Pn2Vf6MX9K6cR',
+                    lrc: '/gokazeacgonline/lrc/ANIMA-ReoNa.lrc',
+                    theme: '#ebd0c2'
+                },
+                {
+                    name: 'I will... Alicization War of Underworld -THE LAST SEASON- ED',
+                    artist: '藍井艾露',
+                    url: 'https://drive.google.com/uc?export=view&id=14vCCUM4oMXlTMvfhubuNImg9nHz-SSjD',
+                    cover: 'https://drive.google.com/uc?export=view&id=14xle9pw6mK3xT6RvsFbKVTicw1JaI79u',
+                    lrc: '/gokazeacgonline/lrc/I will... -藍井艾露-.lrc',
+                    theme: '#46718b'
+                },
+            ]
+        });
+    </script>
+
+</body>
+
+</html>

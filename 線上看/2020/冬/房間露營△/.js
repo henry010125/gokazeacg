@@ -1,0 +1,13 @@
+document.getElementById("video1").src = "https://drive.google.com/uc?export=view&id=10j8czLtp7A6m2SYrxKQmK97AlRaIprj0";
+document.getElementById("video2").src = "https://drive.google.com/uc?export=view&id=1isajbjh_OAoUz5sSO-NUPXETLDSh1dsw";
+document.getElementById("video3").src = "https://drive.google.com/uc?export=view&id=1GrFevCp7HR_uCHH1DPvV6ym2K9wNSBfU";
+document.getElementById("video4").src = "https://drive.google.com/uc?export=view&id=1f2Xdo9KLqsEBKlmShH7oyDDXX0RjVa0c";
+document.getElementById("video5").src = "https://drive.google.com/uc?export=view&id=1LFhh4xnN27Lhmt7uw7lHY75xqQju4OxD";
+document.getElementById("video6").src = "https://drive.google.com/uc?export=view&id=1Xu-EcYpXKUgE9yW03kgA0Rv-2yjQHeQ7";
+document.getElementById("video7").src = "https://drive.google.com/uc?export=view&id=1od_gpF352TDnVoY0rIzWD8oUAV3l_p_E";
+document.getElementById("video8").src = "https://drive.google.com/uc?export=view&id=1QfwIgAB_4onQODEqbWb84DzGC9eMU5UQ";
+document.getElementById("video9").src = "https://drive.google.com/uc?export=view&id=1_iwq1HH5Uwq_bKbYvpW2pg8wOFox8nb9";
+document.getElementById("video10").src = "https://drive.google.com/uc?export=view&id=1TCGYYCBOEgXUCxhqsK6BV5D68qEDSAeD";
+document.getElementById("video11").src = "https://drive.google.com/uc?export=view&id=1SVimLpFDDD5FaGZdwkzqTDM0BVF26l33";
+document.getElementById("video12").src = "https://drive.google.com/uc?export=view&id=1U5Sb3aAo_tdHp-pAubtap_3YRUush5z_";
+document.getElementById("video13").src = "https://drive.google.com/uc?export=view&id=1CZ-KAgeE0YJBQtA7IoMdu-ZMD1nuTAGD";

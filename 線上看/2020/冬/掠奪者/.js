@@ -1,0 +1,12 @@
+document.getElementById("video1").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video2").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video3").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video4").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video5").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video6").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video7").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video8").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video9").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video10").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video11").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video12").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";

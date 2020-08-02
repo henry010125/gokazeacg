@@ -1,0 +1,12 @@
+document.getElementById("video1").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/Ecm2WVb2HOJIlMuOE07NG4oBUenD1Cvv-T4EpPjpY96Mqg";
+document.getElementById("video2").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/EQ_4aPQzTgRIqDC1bcNTkAgBCOnCko6YrwCGhzwHGQ4oeQ?e=PgJpSq";
+document.getElementById("video3").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/Ec29Fc-_HTNGuBPyAXXUGAUBcvDBgfGlPh157YnjZ-PBZw?e=ncx4Yy";
+document.getElementById("video4").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/EWycN9L_xSxBjdurGgZ_3ZMBPo5P0b9VE8J8g7V8yWYdkw?e=T1aygk";
+document.getElementById("video5").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/ERWXDhrf-31Ov0F-aTJAE24BS8w8m0X3vD-BKs27_oZD2w?e=ND5u70";
+document.getElementById("video6").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/ERt6VWlxDl5Kujzbfir5RdUBKVTCBqonUB24xKRB3_5YVw?e=9DiZle";
+document.getElementById("video7").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/ER9nDyORjFNBqLs6fqV-hiEBRs3FigYN2CWYbNWK0r06dg?e=Wz6t0H";
+document.getElementById("video8").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/EfoeZrA23tlClWBvwfCNWgwBnjSiTZ8Qm5q8y0qokj6UQA?e=4XR8Cf";
+document.getElementById("video9").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/EUVoDXhA4FNMmh6UYqVXB9IBGO6CbP05soagtePKYy-4rw?e=agza1D";
+document.getElementById("video10").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/EYr7sXeN2q9FoN8mSZLFx6ABfgShYC1smRpr_uz0JsrYJA?e=0i4oiR";
+document.getElementById("video11").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/Edk2GyJiQuxDvqSDJJxGZuEB8jRK4y8PhJ4LfKz5eD2Uag?e=G2cucM";
+document.getElementById("video12").src = "https://gokaze-my.sharepoint.com/:u:/g/personal/2020anime_gokaze_onmicrosoft_com/Edk2GyJiQuxDvqSDJJxGZuEB8jRK4y8PhJ4LfKz5eD2Uag?e=G2cucM";

@@ -1,0 +1,199 @@
+/*背景*/
+
+body {
+    background-color: #343a40;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* 滾動條寬度 */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 8px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(151, 151, 151);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
+/*導覽列失焦特效*/
+
+.navbar {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+
+.bg-dark {
+    background-color: rgba(52, 58, 64, 0.4) !important
+}
+
+.nav-link {
+    color: white;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.storyboard {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.category {
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+    text-align: left;
+}
+
+.title:hover {
+    color: #ff0000;
+    -o-transition: color .20s linear;
+    -webkit-transition: color .20s linear;
+    -moz-transition: color .20s linear;
+    transition: color .20s linear;
+}
+
+.imgtitle {
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    top: 10px;
+    visibility: hidden;
+}
+
+.cover:hover
+    .imgtitle {
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        top: 10px;
+        visibility: visible;
+        font-size: 20px;
+    }
+
+.fontblack{
+    color: black;
+}
+
+.hide-in-phone {
+    display: block
+}
+
+@media only screen and (max-width:1350px) {
+    .hide-in-phone {
+        display: none !important;
+    }
+}
+
+.aside {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:1350px) {
+    .auto-fullwidth {
+        float: none !important;
+    }
+}
+
+.footbar {
+    text-align: center;
+    clear:both;
+    background-color: #000000;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.onlinepage {
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width:1350px) {
+    .onlinepage {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .onlinepage {
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .onlinepage {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+}
+
+.ccdgfk {
+    width: 60vw;
+    margin: 0px auto;
+}
+
+@media screen and (max-width:3000px) {
+    .alongcol {
+        max-width: 312px;
+    }
+}
+
+@media screen and (max-width:1899px) {
+    .alongcol {
+        max-width: 204px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .alongcol {
+        max-width: 168px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .alongcol {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .alongcol {
+        max-width: 100%;
+    }
+}
