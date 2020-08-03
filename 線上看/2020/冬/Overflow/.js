@@ -1,8 +1,0 @@
-document.getElementById("video1").src = "https://www.googleapis.com/drive/v3/files/15PFk_sYNy9pAWqjDO6RWl9BvOeBpAd8U?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video2").src = "https://www.googleapis.com/drive/v3/files/1_3fBLtcCWuuGXbWSxqRDxaHpv5dJlz1-?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video3").src = "https://www.googleapis.com/drive/v3/files/17DSOoi63M9dGyoA76py7NGDWrYrIK41z?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video4").src = "https://www.googleapis.com/drive/v3/files/1yKMGtdMhhwIBe0qAR93QEA5RlFI-W6GB?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video5").src = "https://www.googleapis.com/drive/v3/files/1zxt3pTStTlv47NMyiHavF_pb1Ixq-NCa?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video6").src = "https://www.googleapis.com/drive/v3/files/14RkuV-N2zXioZq3GSXJzZlot5B_1ZGz1?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video7").src = "https://www.googleapis.com/drive/v3/files/1nIDA3nk1lL-xgPPA1d54_DXHbW78NtL9?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video8").src = "https://www.googleapis.com/drive/v3/files/1GRDgGaBDlrer1xgRgp_b-v3Pz61O2zL9?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
