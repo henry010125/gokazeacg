@@ -83,7 +83,11 @@
         </p>
         <div style="max-width: 600px; margin: 0px auto;">
             <a href="https://mega.nz/folder/0IUxxYgZ" class="btn btn-success btn-lg btn-block" role="button"
-                aria-pressed="true">下載</a>
+                aria-pressed="true" onclick="navigator.clipboard.writeText('-NUuuCPROHFqVvA4O7TQjw').then(function () {
+                    console.log('Copied to clipboard successfully!');
+                }, function () {
+                    console.error('Unable to write to clipboard. :-(');
+                });">下載</a>
         </div>
         <div style="height: 50px;"></div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -619,11 +623,6 @@
         function a() {
             document.getElementById('disqus_thread').style.display = 'unset';
             document.getElementById('disqus_show_button1').style.display = 'none';
-            navigator.clipboard.writeText("Howdy, partner!").then(function () {
-                console.log("Copied to clipboard successfully!");
-            }, function () {
-                console.error("Unable to write to clipboard. :-(");
-            });
         }
     </script>
     <script id="dsq-count-scr" src="//gokazeacg.disqus.com/count.js" async></script>
