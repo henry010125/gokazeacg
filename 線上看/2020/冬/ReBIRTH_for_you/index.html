@@ -616,10 +616,14 @@
         const players = Plyr.setup('video', { captions: { active: true } });
         window.players = players;
 
-        function a(){
-            document.getElementById('disqus_thread').style.display='unset';
-            document.getElementById('disqus_show_button1').style.display='none'
-            
+        function a() {
+            document.getElementById('disqus_thread').style.display = 'unset';
+            document.getElementById('disqus_show_button1').style.display = 'none';
+            navigator.clipboard.writeText("Howdy, partner!").then(function () {
+                console.log("Copied to clipboard successfully!");
+            }, function () {
+                console.error("Unable to write to clipboard. :-(");
+            });
         }
     </script>
     <script id="dsq-count-scr" src="//gokazeacg.disqus.com/count.js" async></script>
