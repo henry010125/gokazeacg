@@ -81,6 +81,10 @@
             <br />
             載點隨時可能因為下載次數太多而暫時報廢，解決方法請自行GOOGLE
         </p>
+        <div style="max-width: 600px; margin: 0px auto;">
+            <a href="https://mega.nz/folder/0IUxxYgZ" class="btn btn-success btn-lg btn-block" role="button"
+                aria-pressed="true">下載</a>
+        </div>
         <div style="height: 50px;"></div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
@@ -192,6 +196,8 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+                <div style="height: 20px;"></div>
+                <p style="font-size: xx-large;">PV</p>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="video0"
@@ -200,6 +206,31 @@
                             src="https://drive.google.com/uc?export=view&id=1CXm1x9HH_pMjXJQNujzf4z9Wpr1WYiJQ"></video>
                     </div>
                 </div>
+                <div style="height: 20px;"></div>
+                <button id="disqus_show_button1" type="button" class="btn btn-primary"
+                    onclick="disqus_show_button1()">顯示討論區</button>
+                <div id="disqus_thread" style="display: none;"></div>
+                <script>
+
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function () { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://gokazeacg.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                        powered by Disqus.</a></noscript>
+
             </div>
             <div class="tab-pane fade" id="first" role="tabpanel" aria-labelledby="first-tab">
                 <div style="height: 20px;"></div>
@@ -579,6 +610,12 @@
             document.getElementById("download16").style.visibility = "hidden"
         };
 
+        function disqus_show_button1() {
+            document.getElementById('ad-container').style.display = "none"
+            document.getElementById('disqus_thread').style.display = "unset"
+            document.getElementById('disqus_show_button1').style.display = "none"
+        };
+
         function jumpback() {
             window.location.href = "/線上看/2020/冬/"
         };
@@ -586,6 +623,7 @@
         const players = Plyr.setup('video', { captions: { active: true } });
         window.players = players;
     </script>
+    <script id="dsq-count-scr" src="//gokazeacg.disqus.com/count.js" async></script>
 </body>
 
 </html>
