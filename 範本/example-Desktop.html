@@ -86,6 +86,14 @@
             載點隨時可能因為下載次數太多而暫時報廢，解決方法請自行GOOGLE
         </p>
         <div style="height: 50px;"></div>
+        <div style="max-width: 600px; margin: 0px auto;">
+            <a href="" class="btn btn-success btn-lg btn-block" role="button"
+                aria-pressed="true" onclick="navigator.clipboard.writeText('').then(function () {
+                    console.log('Copied to clipboard successfully!');
+                }, function () {
+                    console.error('Unable to write to clipboard. QQ');
+                });">下載</a>
+        </div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
@@ -200,6 +208,29 @@
 
                     </div>
                 </div>
+                <div style="height: 20px;"></div>
+                <button id="disqus_show_button1" type="button" class="btn btn-primary" onclick="a()">顯示討論區</button>
+                <div id="disqus_thread" style="display: none;"></div>
+                <script>
+
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function () { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://gokazeacg.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                        powered by Disqus.</a></noscript>
             </div>
             <div class="tab-pane fade" id="first" role="tabpanel" aria-labelledby="first-tab">
                 <div style="height: 20px;"></div>
@@ -548,7 +579,13 @@
 
         const players = Plyr.setup('video', { captions: { active: true } });
         window.players = players;
+
+        function a() {
+            document.getElementById('disqus_thread').style.display = 'unset';
+            document.getElementById('disqus_show_button1').style.display = 'none';
+        }
     </script>
+    <script id="dsq-count-scr" src="//gokazeacg.disqus.com/count.js" async></script>
 </body>
 
 </html>
