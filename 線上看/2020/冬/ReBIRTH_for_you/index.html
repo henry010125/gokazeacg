@@ -159,6 +159,10 @@
                 <a class="nav-link" id="sixtenth-tab" data-toggle="tab" href="#sixtenth" role="tab"
                     aria-controls="sixtenth" aria-selected="false">16</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" id="sevententh-tab" data-toggle="tab" href="#sevententh" role="tab"
+                    aria-controls="sevententh" aria-selected="false">17</a>
+            </li>
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -486,12 +490,27 @@
                 <br />
                 <button type="button" class="btn btn-primary" onclick="video16_1()">主要節點</button>
                 <button type="button" class="btn btn-primary" onclick="video16_2()">備用節點</button>
-                <button style="float: right;" type="button" class="btn btn-primary" onclick="jumpback()">回上一頁</button>
                 <a style="float: right; visibility: hidden;" id="download16" class="btn btn-danger"
                     href="https://drive.google.com/u/3/uc?id=1ohYdcKbbffz_btrUKAKyCPY3sXEHg6f3&export=download"
                     role="button" onclick="hide()" target="_blank">下載</a>
             </div>
-
+            <div class="tab-pane fade" id="sevententh" role="tabpanel" aria-labelledby="sevententh-tab">
+                <div style="height: 20px;"></div>
+                <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
+                    <div style="width: 100%;height: 100%;">
+                        <video id="video16"
+                            poster="https://drive.google.com/uc?export=view&id=1CATUzTczJCEMEhI3-b-4J5w7ybzCaRKD"
+                            preload="none" src=""></video>
+                    </div>
+                </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video17_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video17_2()">備用節點</button>
+                <button style="float: right;" type="button" class="btn btn-primary" onclick="jumpback()">回上一頁</button>
+                <a style="float: right; visibility: hidden;" id="download16" class="btn btn-danger"
+                    href="https://drive.google.com/u/3/uc?id=1qt1HYR8GeSsCNaKACk358zkXCzjPKWKr&export=download"
+                    role="button" onclick="hide()" target="_blank">下載</a>
+            </div>
         </div>
     </div>
     <div class="footbar">
@@ -586,6 +605,7 @@
             document.getElementById("download14").style.visibility = "unset"
             document.getElementById("download15").style.visibility = "unset"
             document.getElementById("download16").style.visibility = "unset"
+            document.getElementById("download17").style.visibility = "unset"
         };
 
         function hide() {
@@ -605,6 +625,7 @@
             document.getElementById("download14").style.visibility = "hidden"
             document.getElementById("download15").style.visibility = "hidden"
             document.getElementById("download16").style.visibility = "hidden"
+            document.getElementById("download17").style.visibility = "hidden"
         };
 
         function jumpback() {
