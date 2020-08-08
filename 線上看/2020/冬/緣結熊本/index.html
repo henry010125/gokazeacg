@@ -2,13 +2,13 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130491192-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130491192-3"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'UA-130491192-2');
+        gtag('config', 'UA-130491192-3');
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -79,6 +79,21 @@
         <h2>
             緣結熊本
         </h2>
+        <p style="text-align: center; padding-top: 30px;">請使用主要節點觀看，備用節點伺服器流量需收費，看在我乾癟的錢包份上能別用就盡量別用
+            <br />
+            位於某些地區的民眾可能無法觀看，這不是我能解決的，要怪就怪高牆吧
+            <br />
+            載點隨時可能因為下載次數太多而暫時報廢，解決方法請自行GOOGLE
+        </p>
+        <div style="height: 50px;"></div>
+        <div style="max-width: 600px; margin: 0px auto;">
+            <a href="https://mega.nz/folder/pj5VkYBa" class="btn btn-success btn-lg btn-block" role="button"
+                aria-pressed="true" onclick="navigator.clipboard.writeText('7-XPjikvbbieGLGPGBSnxQ').then(function () {
+                    console.log('Copied to clipboard successfully!');
+                }, function () {
+                    console.error('Unable to write to clipboard. QQ');
+                });">下載</a>
+        </div>
         <div style="height: 50px;"></div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
@@ -184,131 +199,198 @@
                             allowfullscreen></iframe>
                     </div>
                 </div>
+                <div style="height: 20px;"></div>
+                <button id="disqus_show_button1" type="button" class="btn btn-primary" onclick="a()">顯示討論區</button>
+                <div id="disqus_thread" style="display: none;"></div>
+                <script>
+
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function () { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://gokazeacg.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                        powered by Disqus.</a></noscript>
             </div>
             <div class="tab-pane fade" id="first" role="tabpanel" aria-labelledby="first-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video1"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src=""></video>
+                        <video id="video1" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none"
+                            src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video1_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video1_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download1" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1QXLt8bAPmtKg7Q61DTuBfjrvFEm3qdnI" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video2"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src=""></video>
+                        <video id="video2" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none"
+                            src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video2_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video2_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download2" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1khbltxVc0ak8GqDUZ5qzdE7EXZQZq9lj" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="thired" role="tabpanel" aria-labelledby="thired-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video3"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src="
+                        <video id="video3" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video3_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video3_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download3" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1G4u6sXeDXnP3jpchp-3an5NpTPdvNFqa" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video4"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src=""></video>
+                        <video id="video4" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none"
+                            src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video4_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video4_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download4" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1_Iw35G3-GCezAFZjjunPuLYMskhTQu1s" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="fifth" role="tabpanel" aria-labelledby="fifth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video5"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src="
+                        <video id="video5" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video5_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video5_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download5" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1jCtnMOmXemMY6DhUgBgdUcmD6aYH5FXF" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="sixth" role="tabpanel" aria-labelledby="sixth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video6"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src="
+                        <video id="video6" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video6_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video6_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download6" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1ruo5-zFc7v-TOwpCbTJKTC4gw1dgzsws" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="seventh" role="tabpanel" aria-labelledby="seventh-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video7"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src="
+                        <video id="video7" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video7_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video7_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download7" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1a1gw10FJncfxBCRxRl7obAkdU3QJyAUk" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="eighth" role="tabpanel" aria-labelledby="eighth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video8"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src="
+                        <video id="video8" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none" src="
                             "></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video8_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video8_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download8" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1TBlNPRPFElqzZXG0_9A2Sf9fE-j0qgXa" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="ninth" role="tabpanel" aria-labelledby="ninth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video9"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src=""></video>
+                        <video id="video9" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none"
+                            src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video9_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video9_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download9" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1yKI4qYmmq--c2CSmip_usdO3AaCDsf0U" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="tenth" role="tabpanel" aria-labelledby="tenth-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video10"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src=""></video>
+                        <video id="video10" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none"
+                            src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video10_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video10_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download10" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1A4RatyNA_FGjAcydm0GNitvU_33PMbm7" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="eleventh" role="tabpanel" aria-labelledby="eleventh-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video11"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src=""></video>
+                        <video id="video11" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none"
+                            src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video11_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video11_2()">備用節點</button>
+                <a style="float: right; visibility: hidden;" id="download11" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1dKPJB2fqP9TLluQel-vtJyumDvFb1nCu" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
             <div class="tab-pane fade" id="twelve" role="tabpanel" aria-labelledby="twelve-tab">
                 <div style="height: 20px;"></div>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <video id="video12"
-                            poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ"
-                            preload="none" src=""></video>
+                        <video id="video12" poster="https://drive.google.com/uc?export=view&id=1LQvWL9U1o05trn68EvMZVdzspQ6gZ7RQ" preload="none"
+                            src=""></video>
                     </div>
                 </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video12_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video12_2()">備用節點</button>
+                <button style="float: right;" type="button" class="btn btn-primary" onclick="jumpback()">回上一頁</button>
+                <a style="float: right; visibility: hidden;" id="download12" class="btn btn-danger" href="https://docs.google.com/uc?export=download&id=1p-S46i72se8SBPrYkLdyU0z4kKW6EO4y" role="button"
+                    onclick="hide()" target="_blank">下載</a>
             </div>
         </div>
     </div>
@@ -351,12 +433,98 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!--plyr Javascript-->
     <script type="text/javascript" src="/js/plyr@3"></script>
-
+    <script type="text/javascript" src="/線上看/2020/冬/緣結熊本/sc.js"></script>
+    <!--CONAMICODE-->
     <script>
+        var allowedKeys = {
+            37: 'left',
+            38: 'up',
+            39: 'right',
+            40: 'down',
+            65: 'a',
+            66: 'b'
+        };
+
+        // the 'official' Konami Code sequence
+        var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
+
+        // a variable to remember the 'position' the user has reached so far.
+        var konamiCodePosition = 0;
+
+        // add keydown event listener
+        document.addEventListener('keydown', function (e) {
+            // get the value of the key code from the key map
+            var key = allowedKeys[e.keyCode];
+            // get the value of the required key from the konami code
+            var requiredKey = konamiCode[konamiCodePosition];
+
+            // compare the key with the required key
+            if (key == requiredKey) {
+
+                // move to the next key in the konami code sequence
+                konamiCodePosition++;
+
+                // if the last key is reached, activate cheats
+                if (konamiCodePosition == konamiCode.length) {
+                    activateCheats();
+                    konamiCodePosition = 0;
+                }
+            } else {
+                konamiCodePosition = 0;
+            }
+        });
+
+        function activateCheats() {
+            document.getElementById("download1").style.visibility = "unset"
+            document.getElementById("download2").style.visibility = "unset"
+            document.getElementById("download3").style.visibility = "unset"
+            document.getElementById("download4").style.visibility = "unset"
+            document.getElementById("download5").style.visibility = "unset"
+            document.getElementById("download6").style.visibility = "unset"
+            document.getElementById("download7").style.visibility = "unset"
+            document.getElementById("download8").style.visibility = "unset"
+            document.getElementById("download9").style.visibility = "unset"
+            document.getElementById("download10").style.visibility = "unset"
+            document.getElementById("download11").style.visibility = "unset"
+            document.getElementById("download12").style.visibility = "unset"
+            document.getElementById("download13").style.visibility = "unset"
+            document.getElementById("download14").style.visibility = "unset"
+            document.getElementById("download15").style.visibility = "unset"
+            document.getElementById("download16").style.visibility = "unset"
+        };
+
+        function hide() {
+            document.getElementById("download1").style.visibility = "hidden"
+            document.getElementById("download2").style.visibility = "hidden"
+            document.getElementById("download3").style.visibility = "hidden"
+            document.getElementById("download4").style.visibility = "hidden"
+            document.getElementById("download5").style.visibility = "hidden"
+            document.getElementById("download6").style.visibility = "hidden"
+            document.getElementById("download7").style.visibility = "hidden"
+            document.getElementById("download8").style.visibility = "hidden"
+            document.getElementById("download9").style.visibility = "hidden"
+            document.getElementById("download10").style.visibility = "hidden"
+            document.getElementById("download11").style.visibility = "hidden"
+            document.getElementById("download12").style.visibility = "hidden"
+            document.getElementById("download13").style.visibility = "hidden"
+            document.getElementById("download14").style.visibility = "hidden"
+            document.getElementById("download15").style.visibility = "hidden"
+            document.getElementById("download16").style.visibility = "hidden"
+        };
+
+        function jumpback() {
+            window.location.href = "/線上看/2020/冬/"
+        };
+
         const players = Plyr.setup('video', { captions: { active: true } });
         window.players = players;
+
+        function a() {
+            document.getElementById('disqus_thread').style.display = 'unset';
+            document.getElementById('disqus_show_button1').style.display = 'none';
+        }
     </script>
-    <script type="text/javascript" src="/線上看/2020/冬/緣結熊本/sc.js"></script>
+    <script id="dsq-count-scr" src="//gokazeacg.disqus.com/count.js" async></script>
 </body>
 
 </html>
