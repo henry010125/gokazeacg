@@ -1,63 +1,63 @@
-document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EVTEOnPEOd5CiyjGU_Pb4iEBN7OXs20ZmC_Vpg5GxMFXAg?e=zZuQNd";
-document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQ5ma3DR3ZJHvra2X4L7bmcBgRULuR_C9XNj8q4VJiE_Yw?e=4RPT1F";
-document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EYimhXw8ArNBnIbNfFK-GwQBRFIW8jEiYvYhKNclLD3g_Q?e=vETHPV";
-document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESu9nvqxv49Cs1sBYgSAqagBmjUqcsB_MOve3v60obCKQA?e=1ZtsVi";
-document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETzu14Pni0NIpXp3cZV3fPAB0SNBcn1QjMt9FT-s-nGv3g?e=QgKouj";
-document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERTac7JZNpJFhgEaOPEQp3sBuafilCID4FXLaG9qdSS_hQ?e=LSnIBe";
-document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaDsLgT7o9hJsMl5JfJ7xCoBi_Lx9kFbD69vW7PrVodfCg?e=8yMtfM";
-document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaNvRBUFFeNIvrRcFbJRGaEB8vE_LorTbGX4Jiw0XOkYrw?e=cRmh9u";
-document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EXOLay3XCcdNtxMwXuXzdHQBE4u-pCq4xrQRMxEnFvbuWw?e=pV2Jlh";
-document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERpT-uPFPQdLrv_awzr09ccBwxfnwU7IBM01uLXATiWPBA?e=79pC32";
-document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQNaavyZA7JMvW19zqlMtCwBXhSRkIcQ1sfp0PQeo55FzQ?e=iXJyLQ";
-document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EZVMbjz7KUxEsNXVCVP5X10BY63ru5PcPEhFZhUVIuwMEQ?e=JEJgtV";
+document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EVTEOnPEOd5CiyjGU_Pb4iEBN7OXs20ZmC_Vpg5GxMFXAg?download=1";
+document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQ5ma3DR3ZJHvra2X4L7bmcBgRULuR_C9XNj8q4VJiE_Yw?download=1";
+document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EYimhXw8ArNBnIbNfFK-GwQBRFIW8jEiYvYhKNclLD3g_Q?download=1";
+document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESu9nvqxv49Cs1sBYgSAqagBmjUqcsB_MOve3v60obCKQA?download=1";
+document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETzu14Pni0NIpXp3cZV3fPAB0SNBcn1QjMt9FT-s-nGv3g?download=1";
+document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERTac7JZNpJFhgEaOPEQp3sBuafilCID4FXLaG9qdSS_hQ?download=1";
+document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaDsLgT7o9hJsMl5JfJ7xCoBi_Lx9kFbD69vW7PrVodfCg?download=1";
+document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaNvRBUFFeNIvrRcFbJRGaEB8vE_LorTbGX4Jiw0XOkYrw?download=1";
+document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EXOLay3XCcdNtxMwXuXzdHQBE4u-pCq4xrQRMxEnFvbuWw?download=1";
+document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERpT-uPFPQdLrv_awzr09ccBwxfnwU7IBM01uLXATiWPBA?download=1";
+document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQNaavyZA7JMvW19zqlMtCwBXhSRkIcQ1sfp0PQeo55FzQ?download=1";
+document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EZVMbjz7KUxEsNXVCVP5X10BY63ru5PcPEhFZhUVIuwMEQ?download=1";
 
 //主要節點
 function video1_1() {
-    document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EVTEOnPEOd5CiyjGU_Pb4iEBN7OXs20ZmC_Vpg5GxMFXAg?e=zZuQNd";
+    document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EVTEOnPEOd5CiyjGU_Pb4iEBN7OXs20ZmC_Vpg5GxMFXAg?download=1";
 }
 
 function video2_1() {
-    document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQ5ma3DR3ZJHvra2X4L7bmcBgRULuR_C9XNj8q4VJiE_Yw?e=4RPT1F";
+    document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQ5ma3DR3ZJHvra2X4L7bmcBgRULuR_C9XNj8q4VJiE_Yw?download=1";
 }
 
 function video3_1() {
-    document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EYimhXw8ArNBnIbNfFK-GwQBRFIW8jEiYvYhKNclLD3g_Q?e=vETHPV";
+    document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EYimhXw8ArNBnIbNfFK-GwQBRFIW8jEiYvYhKNclLD3g_Q?download=1";
 }
 
 function video4_1() {
-    document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESu9nvqxv49Cs1sBYgSAqagBmjUqcsB_MOve3v60obCKQA?e=1ZtsVi";
+    document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESu9nvqxv49Cs1sBYgSAqagBmjUqcsB_MOve3v60obCKQA?download=1";
 }
 
 function video5_1() {
-    document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETzu14Pni0NIpXp3cZV3fPAB0SNBcn1QjMt9FT-s-nGv3g?e=QgKouj";
+    document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETzu14Pni0NIpXp3cZV3fPAB0SNBcn1QjMt9FT-s-nGv3g?download=1";
 }
 
 function video6_1() {
-    document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERTac7JZNpJFhgEaOPEQp3sBuafilCID4FXLaG9qdSS_hQ?e=LSnIBe";
+    document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERTac7JZNpJFhgEaOPEQp3sBuafilCID4FXLaG9qdSS_hQ?download=1";
 }
 
 function video7_1() {
-    document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaDsLgT7o9hJsMl5JfJ7xCoBi_Lx9kFbD69vW7PrVodfCg?e=8yMtfM";
+    document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaDsLgT7o9hJsMl5JfJ7xCoBi_Lx9kFbD69vW7PrVodfCg?download=1";
 }
 
 function video8_1() {
-    document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaNvRBUFFeNIvrRcFbJRGaEB8vE_LorTbGX4Jiw0XOkYrw?e=cRmh9u";
+    document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaNvRBUFFeNIvrRcFbJRGaEB8vE_LorTbGX4Jiw0XOkYrw?download=1";
 }
 
 function video9_1() {
-    document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EXOLay3XCcdNtxMwXuXzdHQBE4u-pCq4xrQRMxEnFvbuWw?e=pV2Jlh";
+    document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EXOLay3XCcdNtxMwXuXzdHQBE4u-pCq4xrQRMxEnFvbuWw?download=1";
 }
 
 function video10_1() {
-    document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERpT-uPFPQdLrv_awzr09ccBwxfnwU7IBM01uLXATiWPBA?e=79pC32";
+    document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERpT-uPFPQdLrv_awzr09ccBwxfnwU7IBM01uLXATiWPBA?download=1";
 }
 
 function video11_1() {
-    document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQNaavyZA7JMvW19zqlMtCwBXhSRkIcQ1sfp0PQeo55FzQ?e=iXJyLQ";
+    document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQNaavyZA7JMvW19zqlMtCwBXhSRkIcQ1sfp0PQeo55FzQ?download=1";
 }
 
 function video12_1() {
-    document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EZVMbjz7KUxEsNXVCVP5X10BY63ru5PcPEhFZhUVIuwMEQ?e=JEJgtV";
+    document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EZVMbjz7KUxEsNXVCVP5X10BY63ru5PcPEhFZhUVIuwMEQ?download=1";
 }
 
 //備用節點
