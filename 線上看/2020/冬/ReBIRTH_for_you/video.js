@@ -15,8 +15,8 @@ document.getElementById("video14").src = "https://angelcquinonez-my.sharepoint.c
 document.getElementById("video15").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EczvsUWf3cBFvT6gmwZcqagB_eXJ463ON35pI-rUQmoojQ?&download=1";
 document.getElementById("video16").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EV94xYiUO49NjwFAAdTgoKIBZpXrlnufvX-JwWl4dShj9A?&download=1";
 document.getElementById("video17").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ET-DMTEZ_lxGvrzobkCCEkQBOdMyNh40rn5kH9ulL_QC9A?&download=1";
-document.getElementById("video18").src = "";
-document.getElementById("video19").src = "";
+document.getElementById("video18").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EZFg946sa2hIpmcozNG1OYEBMlfPeX6HL68_rPj5t9kkqQ?&download=1";
+document.getElementById("video19").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Eb_zdGs6-wxMoxmVDgob1jMBj8IilllLpgljQ7f88HQtaQ?&download=1";
 document.getElementById("video20").src = "";
 document.getElementById("video21").src = "";
 document.getElementById("video22").src = "";
@@ -93,11 +93,11 @@ function video17_1() {
 }
 
 function video18_1() {
-    document.getElementById("video18").src = "";
+    document.getElementById("video18").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EZFg946sa2hIpmcozNG1OYEBMlfPeX6HL68_rPj5t9kkqQ?&download=1";
 }
 
 function video19_1() {
-    document.getElementById("video19").src = "";
+    document.getElementById("video19").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Eb_zdGs6-wxMoxmVDgob1jMBj8IilllLpgljQ7f88HQtaQ?&download=1";
 }
 
 function video20_1() {
@@ -190,11 +190,11 @@ function video17_2() {
 }
 
 function video18_2() {
-    document.getElementById("video18").src = "";
+    document.getElementById("video18").src = "https://drive.google.com/uc?export=view&id=1uacAtXMQWyX3jbeKFZ_k7ZwOK1rwz176";
 }
 
 function video19_2() {
-    document.getElementById("video19").src = "";
+    document.getElementById("video19").src = "https://drive.google.com/uc?export=view&id=1fD-6ohwOczxK9qvo12bwJ7BN1wrTpc3A";
 }
 
 function video20_2() {
