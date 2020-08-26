@@ -90,7 +90,7 @@ function video6_2() {
     document.getElementById("video6").src = "https://www.googleapis.com/drive/v3/files/1572OyexDChzecQ03eW9XlP3y0fIk8NXS?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
-function video6_2() {
+function video65_2() {
     document.getElementById("video6").src = "https://www.googleapis.com/drive/v3/files/1LzcQS8fVdez6mZpGS4v9rke0_Q2OO10M?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
 
