@@ -21,7 +21,13 @@
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" media="all" href="/css/plyr.css">
     <script src="/stopdebugger.js"></script>
-
+    <script>
+        if (confirm("本部動畫含有色情裸露之內容\n已滿十八歲方得觀賞\n按下確定即代表您已知悉相關法律責任")) {
+            alert("未滿十八歲請立即離開");
+        } else {
+            location.href = '/';
+        }
+    </script>
 </head>
 
 <body style="color:white; background-color: rgb(22, 22, 22);">
