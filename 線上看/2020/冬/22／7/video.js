@@ -10,6 +10,7 @@ document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.co
 document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETz4LqIxV1JNq9xSGM6K-1wB0GtnNtevdT4Fc_TDdV_Ibg?download=1";
 document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETmT-SocnhdCvnuDCp-8n6YBLfA3-Z27MEnmMzxw0gh0fQ?download=1";
 document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQPHBezV_MtIv-B6Q2tkA14Bjz2cmE22PpUyQABrEmOj8w?download=1";
+document.getElementById("video13").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EfZPc6WNlEVJkbtzCl5_yb0BdurAgHNHZu71DB57hTCgew?download=1";
 
 //主要節點
 function video1_1() {
@@ -60,6 +61,10 @@ function video12_1() {
     document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQPHBezV_MtIv-B6Q2tkA14Bjz2cmE22PpUyQABrEmOj8w?download=1";
 }
 
+function video13_1() {
+    document.getElementById("video13").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EfZPc6WNlEVJkbtzCl5_yb0BdurAgHNHZu71DB57hTCgew?download=1";
+}
+
 //備用節點
 function video1_2() {
     document.getElementById('video1').src = "https://www.googleapis.com/drive/v3/files/1U-9nLGfhEI3iDybMFCwnnn-_9pXFlTT0?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
@@ -107,4 +112,8 @@ function video11_2() {
 
 function video12_2() {
     document.getElementById("video12").src = "https://www.googleapis.com/drive/v3/files/1wBko17Su8eKYIyc5GmD7-lXH4cKt8RXs?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
+}
+
+function video13_2() {
+    document.getElementById("video13").src = "https://www.googleapis.com/drive/v3/files/1CFwG9KdQhEeYgRbNm7pX9Udc9End90gF?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
 }
