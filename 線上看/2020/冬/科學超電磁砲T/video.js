@@ -20,8 +20,10 @@ document.getElementById("video19").src = "https://angelcquinonez-my.sharepoint.c
 document.getElementById("video20").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERH9dEZ92X5FhYWVhfcvK0oBvQZNguHyrJ3_IYVbbCqTZg?download=1";
 document.getElementById("video21").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQSpf254w-hKo92VmRLlN6UBdqkVG-SIwg7Y9rMo8RQqHw?download=1";
 document.getElementById("video22").src = "https://www.googleapis.com/drive/v3/files/1uJbs9QF5Gvx7Fjs-xqeTV0DnOd58_Tc5?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video23").src = "";
-document.getElementById("video24").src = "";
+document.getElementById("video23").src = "https://www.googleapis.com/drive/v3/files/1XHglgH5YOg4ZTd1cNTEpmZTecipULIU7?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video24").src = "https://www.googleapis.com/drive/v3/files/1z1uAxvEeemyG7lj3Y9SMmAMd_BDwPfRP?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+document.getElementById("video25").src = "https://www.googleapis.com/drive/v3/files/12IJmH9kZ34BcBNOjBdR6ecR3Aqab_lu2?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+
 
 //主要節點
 function video1_1() {
@@ -109,15 +111,19 @@ function video21_1() {
 }
 
 function video22_1() {
-    document.getElementById("video22").src = "https://www.googleapis.com/drive/v3/files/1uJbs9QF5Gvx7Fjs-xqeTV0DnOd58_Tc5?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+    document.getElementById("video22").src = "https://www.googleapis.com/drive/v3/files/1uLDnNzIOZwYrRv31-DSyMbqboMfApZv6?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
 }
 
 function video23_1() {
-    document.getElementById("video23").src = "";
+    document.getElementById("video23").src = "https://www.googleapis.com/drive/v3/files/1XHglgH5YOg4ZTd1cNTEpmZTecipULIU7?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
 }
 
 function video24_1() {
-    document.getElementById("video24").src = "";
+    document.getElementById("video24").src = "https://www.googleapis.com/drive/v3/files/1z1uAxvEeemyG7lj3Y9SMmAMd_BDwPfRP?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+}
+
+function video25_1() {
+    document.getElementById("video24").src = "https://www.googleapis.com/drive/v3/files/12IJmH9kZ34BcBNOjBdR6ecR3Aqab_lu2?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
 }
 
 //備用節點
