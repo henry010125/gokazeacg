@@ -147,13 +147,17 @@
                 <a class="nav-link" id="twelve-tab" data-toggle="tab" href="#twelve" role="tab" aria-controls="twelve"
                     aria-selected="false">12</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" id="thirteen-tab" data-toggle="tab" href="#thirteen" role="tab" aria-controls="thirteen"
+                    aria-selected="false">13</a>
+            </li>
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <div style="height: 50px;"></div>
                 <h3>故事大綱</h3>
                 <p style="max-width: 800px;text-align: center;margin:0px auto;">
-
+                    平凡的高中生「修一」有著不為人知的秘密，他可以變身成外表像個布偶的怪物。某天他基於一時好心從火場中救出一位少女，然而此舉卻從此破壞了他原本平靜的生活。那位少女「青木紅愛」的姊姊變成怪物殺死父母親之後，只留下一枚神秘的硬幣之後就消失了。如今紅愛發現了修一的秘密，而且很快地就有其他怪物找上門要拿回硬幣，於是雙方只好聯手反擊……
                 </p>
                 <br />
                 <div id="carouselExampleIndicators" class="carousel slide ccdgfk" data-ride="carousel">
@@ -381,8 +385,22 @@
                 <br />
                 <button type="button" class="btn btn-primary" onclick="video12_1()">主要節點</button>
                 <button type="button" class="btn btn-primary" onclick="video12_2()">備用節點</button>
-                <button style="float: right;" type="button" class="btn btn-primary" onclick="jumpback()">回上一頁</button>
                 <a style="float: right; visibility: hidden;" id="download12" class="btn btn-danger" href=""
+                    role="button" onclick="hide()" target="_blank">下載</a>
+            </div>
+            <div class="tab-pane fade" id="thirteen" role="tabpanel" aria-labelledby="thirteen-tab">
+                <div style="height: 20px;"></div>
+                <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
+                    <div style="width: 100%;height: 100%;">
+                        <video id="video13" poster="https://drive.google.com/uc?export=view&id=1iV-UHBHR4VBAUZXjsCnUqrpfOVU-JFzg" preload="none"
+                            src=""></video>
+                    </div>
+                </div>
+                <br />
+                <button type="button" class="btn btn-primary" onclick="video13_1()">主要節點</button>
+                <button type="button" class="btn btn-primary" onclick="video13_2()">備用節點</button>
+                <button style="float: right;" type="button" class="btn btn-primary" onclick="jumpback()">回上一頁</button>
+                <a style="float: right; visibility: hidden;" id="download13" class="btn btn-danger" href=""
                     role="button" onclick="hide()" target="_blank">下載</a>
             </div>
         </div>
