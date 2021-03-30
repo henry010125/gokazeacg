@@ -98,16 +98,16 @@
         <div style="display:block ;text-align: center;">
             <button type="button" class="btn btn-light" onclick="home()">簡介</button>
             <button type="button" class="btn btn-light" onclick="video1()">01</button>
-            <button type="button" class="btn btn-light">02</button>
-            <button type="button" class="btn btn-light">03</button>
-            <button type="button" class="btn btn-light">04</button>
-            <button type="button" class="btn btn-light">05</button>
-            <button type="button" class="btn btn-light">06</button>
-            <button type="button" class="btn btn-light">07</button>
-            <button type="button" class="btn btn-light">08</button>
-            <button type="button" class="btn btn-light">09</button>
-            <button type="button" class="btn btn-light">10</button>
-            <button type="button" class="btn btn-light">11</button>
+            <button type="button" class="btn btn-light" onclick="video2()">02</button>
+            <button type="button" class="btn btn-light" onclick="video3()">03</button>
+            <button type="button" class="btn btn-light" onclick="video4()">04</button>
+            <button type="button" class="btn btn-light" onclick="video5()">05</button>
+            <button type="button" class="btn btn-light" onclick="video6()">06</button>
+            <button type="button" class="btn btn-light" onclick="video7()">07</button>
+            <button type="button" class="btn btn-light" onclick="video8()">08</button>
+            <button type="button" class="btn btn-light" onclick="video9()">09</button>
+            <button type="button" class="btn btn-light" onclick="video10()">10</button>
+            <button type="button" class="btn btn-light" onclick="video11()">11</button>
         </div>
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <div style="height: 50px;"></div>
@@ -184,22 +184,19 @@
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
                     powered by Disqus.</a></noscript>
         </div>
-        <div id="videodiv" style="display: none;">
+        <div id="video" style="display: none;">
             <div style="height: 20px;"></div>
             <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                 <div style="width: 100%;height: 100%;">
-                    <video id="video"
-                        poster="https://drive.google.com/uc?export=view&id=1g_5jII3bRbl879caeH65ATRaRpkj3DJY"
-                        preload="none" src="">
-                        <track kind="captions" label="English captions"
-                            src=".\達爾文遊戲_01.vtt"
-                            srclang="en" default />
+                    <video poster="https://drive.google.com/uc?export=view&id=1g_5jII3bRbl879caeH65ATRaRpkj3DJY">
+                        <source id="360P" src="" type="video/mp4" size="360">
+                        <source id="720P" src="" type="video/mp4" size="720">
+                        <source id="1080P" src="" type="video/mp4" size="1080">
+                        <track id="captions" kind="captions" label="CHT captions" src="" srclang="CHT" default />
                     </video>
                 </div>
             </div>
             <br />
-            <button type="button" class="btn btn-primary" onclick="video1()">主要節點</button>
-            <button type="button" class="btn btn-primary" onclick="video2()">備用節點</button>
             <a style="float: right; visibility: hidden;" id="download" class="btn btn-danger" href="" role="button"
                 onclick="hide()" target="_blank">下載</a>
         </div>
@@ -287,45 +284,11 @@
         });
 
         function activateCheats() {
-            document.getElementById("download1A").style.visibility = "unset"
-            document.getElementById("download1B").style.visibility = "unset"
-            document.getElementById("download2").style.visibility = "unset"
-            document.getElementById("download3").style.visibility = "unset"
-            document.getElementById("download4").style.visibility = "unset"
-            document.getElementById("download45").style.visibility = "unset"
-            document.getElementById("download5").style.visibility = "unset"
-            document.getElementById("download6").style.visibility = "unset"
-            document.getElementById("download7").style.visibility = "unset"
-            document.getElementById("download8").style.visibility = "unset"
-            document.getElementById("download9").style.visibility = "unset"
-            document.getElementById("download10").style.visibility = "unset"
-            document.getElementById("download11").style.visibility = "unset"
-            document.getElementById("download12").style.visibility = "unset"
-            document.getElementById("download13").style.visibility = "unset"
-            document.getElementById("download14").style.visibility = "unset"
-            document.getElementById("download15").style.visibility = "unset"
-            document.getElementById("download16").style.visibility = "unset"
+            document.getElementById("download").style.visibility = "unset"
         };
 
         function hide() {
-            document.getElementById("download1A").style.visibility = "hidden"
-            document.getElementById("download1B").style.visibility = "hidden"
-            document.getElementById("download2").style.visibility = "hidden"
-            document.getElementById("download3").style.visibility = "hidden"
-            document.getElementById("download4").style.visibility = "hidden"
-            document.getElementById("download45").style.visibility = "hidden"
-            document.getElementById("download5").style.visibility = "hidden"
-            document.getElementById("download6").style.visibility = "hidden"
-            document.getElementById("download7").style.visibility = "hidden"
-            document.getElementById("download8").style.visibility = "hidden"
-            document.getElementById("download9").style.visibility = "hidden"
-            document.getElementById("download10").style.visibility = "hidden"
-            document.getElementById("download11").style.visibility = "hidden"
-            document.getElementById("download12").style.visibility = "hidden"
-            document.getElementById("download13").style.visibility = "hidden"
-            document.getElementById("download14").style.visibility = "hidden"
-            document.getElementById("download15").style.visibility = "hidden"
-            document.getElementById("download16").style.visibility = "hidden"
+            document.getElementById("download").style.visibility = "hidden"
         };
 
         function jumpback() {
