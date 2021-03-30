@@ -5,8 +5,7 @@ function home() {
 function video1() {
     document.getElementById('home').style.display = 'none';
     document.getElementById('video').style.display = 'unset';
-    document.getElementById('captions').src = 'https://raw.githubusercontent.com/gokazeacg/gokazeacg.github.io/master/線上看/2020/冬/達爾文遊戲/達爾文遊戲_01.vtt';
-    document.getElementsByTagName('track').src='https://raw.githubusercontent.com/gokazeacg/gokazeacg.github.io/master/線上看/2020/冬/達爾文遊戲/達爾文遊戲_01.vtt';
+    document.getElementById('captions').src = './達爾文遊戲_01.vtt';
     document.getElementById('360P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/達爾文遊戲/Stream/達爾文遊戲_360P_nosub_01.mp4';
     document.getElementById('720P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/達爾文遊戲/Stream/達爾文遊戲_720P_nosub_01.mp4';
     document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/達爾文遊戲/Stream/達爾文遊戲_1080P_nosub_01.mp4';
