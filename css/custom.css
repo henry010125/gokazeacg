@@ -11,6 +11,19 @@ a {
     text-decoration: none !important;
 }
 
+/* 圖片輪播 */
+
+.Slideshow {
+    margin: 0 auto;
+    max-height: 400px;
+}
+
+/* 級數選擇按鈕 */
+
+.selectep{
+    margin-bottom: 5px;
+}
+
 /* 滾動條寬度 */
 
 ::-webkit-scrollbar {
