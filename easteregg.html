@@ -1,14 +1,20 @@
+<body style="background-color: black;">
 <div id="smart-button-container">
-    <div style="text-align: center"><label for="description">贊助我們的金額將會用來擴增服務起以提供更好的品質 </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
-      <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
-    <div style="text-align: center"><label for="amount">填多少都可以 </label><input name="amountInput" type="number" id="amount" value="" ><span> TWD</span></div>
-      <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
-    <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
-      <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
-    <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
-  </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=TWD" data-sdk-integration-source="button-factory"></script>
-  <script>
+  <p style="text-align: center; color: white;">贊助我們的金額將會用來擴增服務器以提供更好的品質</p>
+  <div style="text-align: center;color: white;"><label for="description">有甚麼地方你認為我們做的不好嗎?歡迎留下意見!</label><input type="text"
+      name="descriptionInput" id="description" maxlength="127" value=""></div>
+  <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
+  <div style="text-align: center;color: white;"><label for="amount">填多少都可以 </label><input name="amountInput" type="number" id="amount"
+      value=""><span> TWD</span></div>
+  <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+  <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input
+      name="invoiceid" maxlength="127" type="text" id="invoiceid" value=""></div>
+  <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+  <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+</div>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=TWD"
+  data-sdk-integration-source="button-factory"></script>
+<script>
   function initPayPalButton() {
     var description = document.querySelector('#smart-button-container #description');
     var amount = document.querySelector('#smart-button-container #amount');
@@ -38,13 +44,13 @@
         shape: 'pill',
         label: 'paypal',
         layout: 'vertical',
-        
+
       },
 
       onInit: function (data, actions) {
         actions.disable();
 
-        if(invoiceidDiv.style.display === "block") {
+        if (invoiceidDiv.style.display === "block") {
           elArr.push(invoiceid);
         }
 
@@ -82,7 +88,7 @@
         purchase_units[0].description = description.value;
         purchase_units[0].amount.value = amount.value;
 
-        if(invoiceid.value !== '') {
+        if (invoiceid.value !== '') {
           purchase_units[0].invoice_id = invoiceid.value;
         }
       },
@@ -105,4 +111,5 @@
     }).render('#paypal-button-container');
   }
   initPayPalButton();
-  </script>
+</script>
+</body>
