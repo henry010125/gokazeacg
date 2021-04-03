@@ -1,119 +1,109 @@
-document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EVUopGfPEjJCjgfchZiD7rQB1lDsxzvXBe4n4CDmtD_j7Q?download=1";
-document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESVaKgqkZ4JDhgnUsRjZywIBnxKFaHcs5cC8kSGBlsrfAQ?download=1";
-document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EWTJDwJCbIxDq3Coevp-QF8BpswgVu8O7wjYH2qYdY4Gng?download=1";
-document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EehH9wT9q-1OjjEMI2Ku97sB7Qp8_jpsfqXkGQUb9fqo3Q?download=1";
-document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ea9e2E7gXE5KlauCdBmn2AEB-ZALAoVf1HNvED55AlWm2g?download=1";
-document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EfvJ7WKd1YVCuUgp4GRQDFUBCk7J3czF_wvEhIBu5M3FDw?download=1";
-document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESvzbfJlco9OqgVtW0bNmXcBheHl8NsrrNY-w3PpIDqItA?download=1";
-document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EYwWRxg97GpKu_clBuDKT3MB2aRoSnsurmBRGTSqDs_QYw?download=1";
-document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERLmUAGtdIdCnpAD3LXv_jIBMtEdNugxHwNJsuB7wgdOQQ?download=1";
-document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETz4LqIxV1JNq9xSGM6K-1wB0GtnNtevdT4Fc_TDdV_Ibg?download=1";
-document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETmT-SocnhdCvnuDCp-8n6YBLfA3-Z27MEnmMzxw0gh0fQ?download=1";
-document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQPHBezV_MtIv-B6Q2tkA14Bjz2cmE22PpUyQABrEmOj8w?download=1";
-document.getElementById("video13").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EfZPc6WNlEVJkbtzCl5_yb0BdurAgHNHZu71DB57hTCgew?download=1";
-
-//主要節點
-function video1_1() {
-    document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EVUopGfPEjJCjgfchZiD7rQB1lDsxzvXBe4n4CDmtD_j7Q?download=1";
+function home() {
+    document.getElementById('home').style.display = 'unset';
+    document.getElementById('video').style.display = 'none';
+    document.getElementById('Episode').innerHTML = '故事大綱';
 }
 
-function video2_1() {
-    document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESVaKgqkZ4JDhgnUsRjZywIBnxKFaHcs5cC8kSGBlsrfAQ?download=1";
+function video1() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#01 再見了，我那小小的世界';    
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_01.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_01.mp4';
 }
 
-function video3_1() {
-    document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EWTJDwJCbIxDq3Coevp-QF8BpswgVu8O7wjYH2qYdY4Gng?download=1";
+function video2() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#02 暈眩之中';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_02.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_02.mp4';
 }
 
-function video4_1() {
-    document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EehH9wT9q-1OjjEMI2Ku97sB7Qp8_jpsfqXkGQUb9fqo3Q?download=1";
+function video3() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#03 你好，新世界';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_03.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_03.mp4';
 }
 
-function video5_1() {
-    document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ea9e2E7gXE5KlauCdBmn2AEB-ZALAoVf1HNvED55AlWm2g?download=1";
+function video4() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#04 約定綻放之花';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_04.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_04.mp4';
 }
 
-function video6_1() {
-    document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EfvJ7WKd1YVCuUgp4GRQDFUBCk7J3czF_wvEhIBu5M3FDw?download=1";
+function video5() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#05 翻個面就好了唄！';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_05.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_05.mp4';
 }
 
-function video7_1() {
-    document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESvzbfJlco9OqgVtW0bNmXcBheHl8NsrrNY-w3PpIDqItA?download=1";
+function video6() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#06 偶數與奇數之間';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_06.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_06.mp4';
 }
 
-function video8_1() {
-    document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EYwWRxg97GpKu_clBuDKT3MB2aRoSnsurmBRGTSqDs_QYw?download=1";
+function video7() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#07 HAPPY☆雲霄☆飛車';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_07.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_07.mp4';
 }
 
-function video9_1() {
-    document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERLmUAGtdIdCnpAD3LXv_jIBMtEdNugxHwNJsuB7wgdOQQ?download=1";
+function video8() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#08 作夢的機器人';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_08.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_08.mp4';
 }
 
-function video10_1() {
-    document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETz4LqIxV1JNq9xSGM6K-1wB0GtnNtevdT4Fc_TDdV_Ibg?download=1";
+function video9() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#09 星星的搖籃曲';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_09.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_09.mp4';
 }
 
-function video11_1() {
-    document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETmT-SocnhdCvnuDCp-8n6YBLfA3-Z27MEnmMzxw0gh0fQ?download=1";
+function video10() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#10 再見了，我們的世界';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_10.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_10.mp4';
 }
 
-function video12_1() {
-    document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQPHBezV_MtIv-B6Q2tkA14Bjz2cmE22PpUyQABrEmOj8w?download=1";
+function video11() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#11 只是不斷追隨著他';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_11_end.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_11_end.mp4';
 }
 
-function video13_1() {
-    document.getElementById("video13").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EfZPc6WNlEVJkbtzCl5_yb0BdurAgHNHZu71DB57hTCgew?download=1";
+function video12() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#12 七分之二十二';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_11_end.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_11_end.mp4';
 }
 
-//備用節點
-function video1_2() {
-    document.getElementById('video1').src = "https://www.googleapis.com/drive/v3/files/1U-9nLGfhEI3iDybMFCwnnn-_9pXFlTT0?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video2_2() {
-    document.getElementById("video2").src = "https://www.googleapis.com/drive/v3/files/1x99xErg9FcI-8uS7gO_hK3DBNudGE1rF?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video3_2() {
-    document.getElementById("video3").src = "https://www.googleapis.com/drive/v3/files/1y-RkktvIK-haUAlxfIXcCm2yl_pKKuFe?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video4_2() {
-    document.getElementById("video4").src = "https://www.googleapis.com/drive/v3/files/1h5GLTw8Sg2HAbz0TUsWVW486NFd1QTDp?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video5_2() {
-    document.getElementById("video5").src = "https://www.googleapis.com/drive/v3/files/14DbvpXkQcuxDOho4EhBkPLp8wwbvVXyH?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video6_2() {
-    document.getElementById("video6").src = "https://www.googleapis.com/drive/v3/files/1WPgPQyZF-eP6dXU8E0_M1U1yY-h-pouE?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video7_2() {
-    document.getElementById("video7").src = "https://www.googleapis.com/drive/v3/files/14iduHGsftMPntljBvO78DTbmegp6sANW?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video8_2() {
-    document.getElementById("video8").src = "https://www.googleapis.com/drive/v3/files/19zyxNWDPGfM-MjlMcsfQMeJ41fnA9F7F?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video9_2() {
-    document.getElementById("video9").src = "https://www.googleapis.com/drive/v3/files/11Qq0rYjDR7RhAFWjaVtdpxMjhmkkJyF_?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video10_2() {
-    document.getElementById("video10").src = "https://www.googleapis.com/drive/v3/files/14NYNM0YvTnXFa4txqjRjIJD5Eekq_gnh?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video11_2() {
-    document.getElementById("video11").src = "https://www.googleapis.com/drive/v3/files/140u867PCb5S_zbrz4pVKLlP5TlHUK8Rp?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video12_2() {
-    document.getElementById("video12").src = "https://www.googleapis.com/drive/v3/files/1wBko17Su8eKYIyc5GmD7-lXH4cKt8RXs?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video13_2() {
-    document.getElementById("video13").src = "https://www.googleapis.com/drive/v3/files/1CFwG9KdQhEeYgRbNm7pX9Udc9End90gF?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
+function video13() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#13 8+3=？';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_11_end.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_11_end.mp4';
 }
