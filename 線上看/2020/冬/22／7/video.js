@@ -88,22 +88,22 @@ function video11() {
     document.getElementById('home').style.display = 'none';
     document.getElementById('video').style.display = 'unset';
     document.getElementById('Episode').innerHTML = '#11 只是不斷追隨著他';
-    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_11_end.mp4';
-    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_11_end.mp4';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_11.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_11.mp4';
 }
 
 function video12() {
     document.getElementById('home').style.display = 'none';
     document.getElementById('video').style.display = 'unset';
     document.getElementById('Episode').innerHTML = '#12 七分之二十二';
-    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_11_end.mp4';
-    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_11_end.mp4';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_12.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_12.mp4';
 }
 
 function video13() {
     document.getElementById('home').style.display = 'none';
     document.getElementById('video').style.display = 'unset';
     document.getElementById('Episode').innerHTML = '#13 8+3=？';
-    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_11_end.mp4';
-    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_11_end.mp4';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Stream/1080P/22／7_1080P_13_end.mp4';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/Download/22／7_1080P_dl_13_end.mp4';
 }
