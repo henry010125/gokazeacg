@@ -3,8 +3,9 @@
 body {
     background-color: #343a40;
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
+    background-position: center;
+    background-size: auto 100%;
+    background-attachment: fixed;
 }
 
 a {
@@ -16,6 +17,7 @@ a {
 .Slideshow {
     margin: 0 auto;
     max-height: 400px;
+    max-width: 100%;
 }
 
 /* 級數選擇按鈕 */
@@ -58,7 +60,7 @@ a {
 }
 
 .bg-dark {
-    background-color: rgba(52, 58, 64, 0.4) !important
+    background-color: rgba(52, 58, 64, 0.9) !important
 }
 
 .nav-link {
@@ -151,6 +153,7 @@ a {
     margin-left: 110px;
     margin-right: 110px;
     margin-top: 25px;
+    background-color: rgba(22, 22, 22, 0.98);
 }
 
 @media screen and (max-width:1350px) {
