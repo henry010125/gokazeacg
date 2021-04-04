@@ -1,3 +1,7 @@
+function dl() {
+    location.href='https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/227/22／７.zip'
+}
+
 function home() {
     document.getElementById('home').style.display = 'unset';
     document.getElementById('video').style.display = 'none';

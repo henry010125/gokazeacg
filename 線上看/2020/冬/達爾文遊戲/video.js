@@ -1,3 +1,7 @@
+function dl() {
+    window.location = '';
+}
+
 function home() {
     document.getElementById('home').style.display = 'unset';
     document.getElementById('video').style.display = 'none';
