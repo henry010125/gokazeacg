@@ -1,224 +1,187 @@
-document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EWvImP2ShzJMnAdHt6kgCv4BF_34nLkkenPP7SYGx7BGtQ?download=1";
-document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Eafzgw9OOvZCpKsOGA7EnRsB-sd5nJu8s8oQEeOiuiGVYA?download=1";
-document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ec205KLwHWFGqOWfAAFaQEwBM7BCpbSNZMsn0HcT0zI4ew?download=1";
-document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaVHPJJRfZVPuTzoqEcnU_0BhdX41lfiyzk6YBso3dif4A?download=1";
-document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ealag2NwNCpGhfojLPfNfZABvpQ8IuRDev9Rz_Ch1p6VqQ?download=1";
-document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EVMtkgX3MHFJi6S4oDeyofYB-AAJacNShoWO0m5ZVeOnQQ?download=1";
-document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EZDCKAysyfdGo1ukdOTEqokBSmyarcmMhusZjOAuygGlXA?download=1";
-document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ef9NaA1y4qRKizn78sxaohsBSeJEW3ayqaUEzRtKAxduXQ?download=1";
-document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Effy16KlLgBCu5Cnqru5zVABNvEtz4GIveM2MFLEBiy1aw?download=1";
-document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaEs3MVketlLsMB65dzrAvYBmyRz9AYbYz2IWtGAHXmIYw?download=1";
-document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESGyHYmt-0xHgVWmCdgzt3ABhDMGyHpiNRObAnjUExowLg?download=1";
-document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ed3hdSViLcJGlY1FO4Vn4W4BvWdzZAwr4UY7pye921wOxA?download=1";
-document.getElementById("video13").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERMqT5A8hfNKkQ8xlltXB1ABedZbZfwjfrTqEGuCmkUsXg?download=1";
-document.getElementById("video14").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaIsDYJziiZAi2vlmYVdgmQBZ4HlaiMn_EOQXxTqwg2_fw?download=1";
-document.getElementById("video15").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EXBNxq1Wy8VBtZK8jYICnsABWEN5KBWtlIVnEsFJyW55vQ?download=1";
-document.getElementById("video16").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERun8v7Zc9xBnSIBfcF2U6oBBSFvK_IZQq4JLvrzOJbMpA?download=1";
-document.getElementById("video17").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETI7hxaWgahBn9kKKff_lEYBxiMyDsoy6W7mwydhlCtveA?download=1";
-document.getElementById("video18").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ebng4NkBiVdHitKQB2XcJTYBZCY0-AmD9_woFRB9YLAVGQ?download=1";
-document.getElementById("video19").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EWFOG2XzPsxNlrH1dDm_KzABxnbTSGE1NhLUoDil_BNJQw?download=1";
-document.getElementById("video20").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERH9dEZ92X5FhYWVhfcvK0oBvQZNguHyrJ3_IYVbbCqTZg?download=1";
-document.getElementById("video21").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQSpf254w-hKo92VmRLlN6UBdqkVG-SIwg7Y9rMo8RQqHw?download=1";
-document.getElementById("video22").src = "https://www.googleapis.com/drive/v3/files/1uJbs9QF5Gvx7Fjs-xqeTV0DnOd58_Tc5?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video23").src = "https://www.googleapis.com/drive/v3/files/1XHglgH5YOg4ZTd1cNTEpmZTecipULIU7?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video24").src = "https://www.googleapis.com/drive/v3/files/1z1uAxvEeemyG7lj3Y9SMmAMd_BDwPfRP?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-document.getElementById("video25").src = "https://www.googleapis.com/drive/v3/files/12IJmH9kZ34BcBNOjBdR6ecR3Aqab_lu2?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-
-
-//主要節點
-function video1_1() {
-    document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EWvImP2ShzJMnAdHt6kgCv4BF_34nLkkenPP7SYGx7BGtQ?download=1";
+function dl1() {
+    location.href='https://www.googleapis.com/drive/v3/files/1fOzFpd0Ti2YMBvVMFviiY1PsZtIl7DEo?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media'
+}
+function dl2() {
+    location.href='https://www.googleapis.com/drive/v3/files/1-RUFnIRbxpQeROdZ9dVaegOmTJoub4fK?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media'
 }
 
-function video2_1() {
-    document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Eafzgw9OOvZCpKsOGA7EnRsB-sd5nJu8s8oQEeOiuiGVYA?download=1";
+function home() {
+    document.getElementById('home').style.display = 'unset';
+    document.getElementById('video').style.display = 'none';
+    document.getElementById('Episode').innerHTML = '故事大綱';
 }
-
-function video3_1() {
-    document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ec205KLwHWFGqOWfAAFaQEwBM7BCpbSNZMsn0HcT0zI4ew?download=1";
+function video1() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#01 超能力者LEVEL5';    
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_01.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_01.mkv';
 }
-
-function video4_1() {
-    document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaVHPJJRfZVPuTzoqEcnU_0BhdX41lfiyzk6YBso3dif4A?download=1";
+function video2() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#02 大霸星祭';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_02.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_02.mkv';
 }
-
-function video5_1() {
-    document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ealag2NwNCpGhfojLPfNfZABvpQ8IuRDev9Rz_Ch1p6VqQ?download=1";
+function video3() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#03 氣球獵人	';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_03.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_03.mkv';
 }
-
-function video6_1() {
-    document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EVMtkgX3MHFJi6S4oDeyofYB-AAJacNShoWO0m5ZVeOnQQ?download=1";
+function video4() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#04 竄改';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_04.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_04.mkv';
 }
-
-function video7_1() {
-    document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EZDCKAysyfdGo1ukdOTEqokBSmyarcmMhusZjOAuygGlXA?download=1";
+function video5() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#05 信賴';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_05.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_05.mkv';
 }
-
-function video8_1() {
-    document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ef9NaA1y4qRKizn78sxaohsBSeJEW3ayqaUEzRtKAxduXQ?download=1";
+function video6() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#06 開戰';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_06.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_06.mkv';
 }
-
-function video9_1() {
-    document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Effy16KlLgBCu5Cnqru5zVABNvEtz4GIveM2MFLEBiy1aw?download=1";
+function video7() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#07 百聞不如一見 Auribus oculi fideliores sunt.';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_07.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_07.mkv';
 }
-
-function video10_1() {
-    document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaEs3MVketlLsMB65dzrAvYBmyRz9AYbYz2IWtGAHXmIYw?download=1";
+function video8() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#08 Railgun Mental Out 超電磁砲×心理掌握';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_08.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_08.mkv';
 }
-
-function video11_1() {
-    document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESGyHYmt-0xHgVWmCdgzt3ABhDMGyHpiNRObAnjUExowLg?download=1";
+function video9() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#09 警策看取';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_09.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_09.mkv';
 }
-
-function video12_1() {
-    document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ed3hdSViLcJGlY1FO4Vn4W4BvWdzZAwr4UY7pye921wOxA?download=1";
+function video10() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#10 才人工房 Clone Dolly';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_10.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_10.mkv';
 }
-
-function video13_1() {
-    document.getElementById("video13").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERMqT5A8hfNKkQ8xlltXB1ABedZbZfwjfrTqEGuCmkUsXg?download=1";
+function video11() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#11 參戰';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_11.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_11.mkv';
 }
-
-function video14_1() {
-    document.getElementById("video14").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EaIsDYJziiZAi2vlmYVdgmQBZ4HlaiMn_EOQXxTqwg2_fw?download=1";
+function video12() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#12 外裝代腦 Exterior';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_12.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_12.mkv';
 }
-
-function video15_1() {
-    document.getElementById("video15").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EXBNxq1Wy8VBtZK8jYICnsABWEN5KBWtlIVnEsFJyW55vQ?download=1";
+function video13() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#13 以非神之軀領悟上天意志之人 ＳＹＳＴＥＭ';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_13.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_13.mkv';
 }
-
-function video16_1() {
-    document.getElementById("video16").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERun8v7Zc9xBnSIBfcF2U6oBBSFvK_IZQq4JLvrzOJbMpA?download=1";
+function video14() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#14 龍王之顎 Dragon Strike';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_14.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_14.mkv';
 }
-
-function video17_1() {
-    document.getElementById("video17").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ETI7hxaWgahBn9kKKff_lEYBxiMyDsoy6W7mwydhlCtveA?download=1";
+function video15() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#15 約定';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_15.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_15.mkv';
 }
-
-function video18_1() {
-    document.getElementById("video18").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ebng4NkBiVdHitKQB2XcJTYBZCY0-AmD9_woFRB9YLAVGQ?download=1";
+function video16() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#16 Dream Ranker 天賦夢路';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_16.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_16.mkv';
 }
-
-function video19_1() {
-    document.getElementById("video19").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EWFOG2XzPsxNlrH1dDm_KzABxnbTSGE1NhLUoDil_BNJQw?download=1";
+function video17() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#17 預知';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_17.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_17.mkv';
 }
-
-function video20_1() {
-    document.getElementById("video20").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ERH9dEZ92X5FhYWVhfcvK0oBvQZNguHyrJ3_IYVbbCqTZg?download=1";
+function video18() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#18 巨乳御手 Bust Upper';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_18.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_18.mkv';
 }
-
-function video21_1() {
-    document.getElementById("video21").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EQSpf254w-hKo92VmRLlN6UBdqkVG-SIwg7Y9rMo8RQqHw?download=1";
+function video19() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#19 奇緣';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_19.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_19.mkv';
 }
-
-function video22_1() {
-    document.getElementById("video22").src = "https://www.googleapis.com/drive/v3/files/1uLDnNzIOZwYrRv31-DSyMbqboMfApZv6?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+function video20() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#20 Ha det bra';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_20.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_20.mkv';
 }
-
-function video23_1() {
-    document.getElementById("video23").src = "https://www.googleapis.com/drive/v3/files/1XHglgH5YOg4ZTd1cNTEpmZTecipULIU7?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+function video21() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#21 Doppelgänger 分身';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_21.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_21.mkv';
 }
-
-function video24_1() {
-    document.getElementById("video24").src = "https://www.googleapis.com/drive/v3/files/1z1uAxvEeemyG7lj3Y9SMmAMd_BDwPfRP?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+function video22() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#22 Scavenger 食屍部隊';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_22.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_22.mkv';
 }
-
-function video25_1() {
-    document.getElementById("video24").src = "https://www.googleapis.com/drive/v3/files/12IJmH9kZ34BcBNOjBdR6ecR3Aqab_lu2?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+function video23() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#23 附身';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_23.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_23.mkv';
 }
-
-//備用節點
-function video1_2() {
-    document.getElementById('video1').src = "https://www.googleapis.com/drive/v3/files/1-1VCmVy1SycfnFluuWnz6Lf4sk3oBLEo?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
+function video24() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#24 擴散';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_24.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_24.mkv';
 }
-
-function video2_2() {
-    document.getElementById("video2").src = "https://www.googleapis.com/drive/v3/files/1-73_pCrmiU5z0kcr8mAroeGV6ifAnDdR?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video3_2() {
-    document.getElementById("video3").src = "https://www.googleapis.com/drive/v3/files/1-9q1xIeVjhePaLhazRvfMmiLXyw4P_a6?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video4_2() {
-    document.getElementById("video4").src = "https://www.googleapis.com/drive/v3/files/1-DZeoR1MeleBa_s8ehcEEQse7Jjw0ko5?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video5_2() {
-    document.getElementById("video5").src = "https://www.googleapis.com/drive/v3/files/1-DlIA_LMAxPI_x7Agfi2bzP2rFUp1RK7?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video6_2() {
-    document.getElementById("video6").src = "https://www.googleapis.com/drive/v3/files/1-Oe3r2asVmEHtr-Q52zWknUi_GgPLmSA?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video7_2() {
-    document.getElementById("video7").src = "https://www.googleapis.com/drive/v3/files/1-PMH_NnjqIsU-HPs7AETpr02pJ9g2ZEa?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video8_2() {
-    document.getElementById("video8").src = "https://www.googleapis.com/drive/v3/files/1-RKoprrHG46deNQM18_-Kcev0SQAauSE?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video9_2() {
-    document.getElementById("video9").src = "https://www.googleapis.com/drive/v3/files/1-W_nyjkvBtWcotTHOBJx_GGSz3rXL0a1?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video10_2() {
-    document.getElementById("video10").src = "https://www.googleapis.com/drive/v3/files/1-WqmJFmIhlRS5nO3GlcNEjBDn-KOiEsQ?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video11_2() {
-    document.getElementById("video11").src = "https://www.googleapis.com/drive/v3/files/1-Z1vmQysn9GuINMcnVcfgeaNOWxHPG5v?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video12_2() {
-    document.getElementById("video12").src = "https://www.googleapis.com/drive/v3/files/1-_V5yrV3gmC9gbvFfmIOAADQa4KfK9Bv?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video13_2() {
-    document.getElementById("video13").src = "https://www.googleapis.com/drive/v3/files/1-aY-CVogMe20oF8jxCxLtdBbzxzBb1Rf?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video14_2() {
-    document.getElementById("video14").src = "https://www.googleapis.com/drive/v3/files/1-bm2YFrV8_5GcbroO9dHwzvReS0cqeHx?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video15_2() {
-    document.getElementById("video15").src = "https://www.googleapis.com/drive/v3/files/1-cHnRk9__aZN81uXP1aw_tr_kOnw2iRE?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video16_2() {
-    document.getElementById("video16").src = "https://www.googleapis.com/drive/v3/files/1-db-TK4o7piihjLjgeZHXCBBiIwdr80c?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video17_2() {
-    document.getElementById("video17").src = "https://www.googleapis.com/drive/v3/files/15ufH-1l2w3WFoG1EZjkYYFXlrPVh4F3p?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video18_2() {
-    document.getElementById("video18").src = "https://www.googleapis.com/drive/v3/files/1-gwxD_TFa1T1D0j5i-8_ZS_xL9E_OHmW?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video19_2() {
-    document.getElementById("video19").src = "https://www.googleapis.com/drive/v3/files/1-qiwvBwnVuE_zz_goCZFiqCB6AT3cd4Y?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video20_2() {
-    document.getElementById("video20").src = "https://www.googleapis.com/drive/v3/files/1-rkIDAEi0JOESfgsLELimbxoOGBHr1IY?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video21_2() {
-    document.getElementById("video21").src = "https://www.googleapis.com/drive/v3/files/1-skEog9BekaAdTA-hr9oR7wnk9y56XNf?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video22_2() {
-    document.getElementById("video22").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video23_2() {
-    document.getElementById("video23").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video24_2() {
-    document.getElementById("video24").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+function video25() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#25 我重要的朋友';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_25_end.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/科學超電磁砲T/科學超電磁砲T_1080P_25_end.mkv';
 }

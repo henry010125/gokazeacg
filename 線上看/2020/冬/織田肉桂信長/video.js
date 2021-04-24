@@ -1,110 +1,105 @@
-document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ecp51lmTAz5Ghz49ad42xXsBMjEVajnGhxY55T-cUJlVIQ?download=1";
-document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Eayebc7Tt9BHvssKMKn8xwkBES0N6nkke2mEQTmcvrp7Sg?download=1";
-document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EROJJbaoSNJAs5aFHHbMhmkBQ01QDMZjeC8TtVpqoipJGA?download=1";
-document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EdmnfFMBXX5PkPX8WI2xnTEBNqg2pjQGcuymcVr5u3Dd3g?download=1";
-document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EU6g4Rc6vEpDlJqQgkbKEuABRvQuE3RVvJYGif3VovPQ7g?download=1";
-document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EXscZZPoovBKmQg9YTD7AloBQk_04-y0o9BbcY44F1N7lA?download=1";
-document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EcalDwAujTpMv9DP-YgknNEBopIvcE2lsubjbYYL9LhWbg?download=1";
-document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EV8dkXIWJiZLskWAxXTLML4BDSKV8owGuNJz0M16YzAFOA?download=1";
-document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EdNeN587zHlGtYt3uMBiINMBDHxkKp_ZnTG0B8u_nxccFw?download=1";
-document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Eb-yBXz_yBpDn29LEeO-ohsB_g_mvtJrfYcWX2ysFgtzOQ?download=1";
-document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EYxOzxvuPE1Ou2mZ1GYt2NMBNSLjYX4KOINvHDiI_s6gMA?download=1";
-document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESr4Vdaggh9MnDGJRSnUpoEBkSbvl14Nb2NYVDBMIXns_w?download=1";
-
-//主要節點
-function video1_1() {
-    document.getElementById("video1").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Ecp51lmTAz5Ghz49ad42xXsBMjEVajnGhxY55T-cUJlVIQ?download=1";
+function dl() {
+    location.href='https://www.googleapis.com/drive/v3/files/1Aa5dTNbs0fGOPQ91hQNjh27wDaH4juSR?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media'
 }
 
-function video2_1() {
-    document.getElementById("video2").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Eayebc7Tt9BHvssKMKn8xwkBES0N6nkke2mEQTmcvrp7Sg?download=1";
+function home() {
+    document.getElementById('home').style.display = 'unset';
+    document.getElementById('video').style.display = 'none';
+    document.getElementById('Episode').innerHTML = '故事大綱';
 }
 
-function video3_1() {
-    document.getElementById("video3").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EROJJbaoSNJAs5aFHHbMhmkBQ01QDMZjeC8TtVpqoipJGA?download=1";
+function video1() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#01 穿越時空甦醒的男人 老夫是織田肉桂信長!?';    
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_01.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_01.mkv';
 }
 
-function video4_1() {
-    document.getElementById("video4").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EdmnfFMBXX5PkPX8WI2xnTEBNqg2pjQGcuymcVr5u3Dd3g?download=1";
+function video2() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#02 牛奶人跟草莓內褲...本能寺之戀!?';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_02.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_02.mkv';
 }
 
-function video5_1() {
-    document.getElementById("video5").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EU6g4Rc6vEpDlJqQgkbKEuABRvQuE3RVvJYGif3VovPQ7g?download=1";
+function video3() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#03 犬貴族,桶狹間的大戰再開...?';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_03.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_03.mkv';
 }
 
-function video6_1() {
-    document.getElementById("video6").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EXscZZPoovBKmQg9YTD7AloBQk_04-y0o9BbcY44F1N7lA?download=1";
+function video4() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#04 雨音是戰爭的旋律~開始之時總會下雨~';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_04.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_04.mkv';
 }
 
-function video7_1() {
-    document.getElementById("video7").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EcalDwAujTpMv9DP-YgknNEBopIvcE2lsubjbYYL9LhWbg?download=1";
+function video5() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#05 狩獵老鷹！打高爾夫！！火熱大叔們的活動！！';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_05.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_05.mkv';
 }
 
-function video8_1() {
-    document.getElementById("video8").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EV8dkXIWJiZLskWAxXTLML4BDSKV8owGuNJz0M16YzAFOA?download=1";
+function video6() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#06 就是要Rock!!!超可愛❤最壞男子現身!?';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_06.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_06.mkv';
 }
 
-function video9_1() {
-    document.getElementById("video9").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EdNeN587zHlGtYt3uMBiINMBDHxkKp_ZnTG0B8u_nxccFw?download=1";
+function video7() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#07 想要守護地球和平...來自溜狗場的一片心意?';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_07.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_07.mkv';
 }
 
-function video10_1() {
-    document.getElementById("video10").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/Eb-yBXz_yBpDn29LEeO-ohsB_g_mvtJrfYcWX2ysFgtzOQ?download=1";
+function video8() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#08 美食對決!?無法割捨的味道是你喔!!!';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_08.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_08.mkv';
 }
 
-function video11_1() {
-    document.getElementById("video11").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/EYxOzxvuPE1Ou2mZ1GYt2NMBNSLjYX4KOINvHDiI_s6gMA?download=1";
+function video9() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#09 暖爐桌暖呼呼♪ 寒風呼嘯冬將軍來襲';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_09.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_09.mkv';
 }
 
-function video12_1() {
-    document.getElementById("video12").src = "https://angelcquinonez-my.sharepoint.com/:v:/g/personal/animeonline_office_jimschool_org/ESr4Vdaggh9MnDGJRSnUpoEBkSbvl14Nb2NYVDBMIXns_w?download=1";
+function video10() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#10 迫不及待...夏天!!用洋裝跟兜襠布一決勝負!!!';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_10.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_10.mkv';
 }
 
-//備用節點
-function video1_2() {
-    document.getElementById('video1').src = "https://www.googleapis.com/drive/v3/files/1XSpMCq6eHr2ubIMEiDKswl1C4CvYa2zN?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
+function video11() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#11 燃燒吧!人生與社群網站!!!';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_11.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_11.mkv';
 }
 
-function video2_2() {
-    document.getElementById("video2").src = "https://www.googleapis.com/drive/v3/files/13oLpwNA85bV6BwY9yUXUhE7pYrBd5TQ8?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video3_2() {
-    document.getElementById("video3").src = "https://www.googleapis.com/drive/v3/files/1KxDS7vjX2gbMs5e35G5Amcwpd4jtQIUk?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video4_2() {
-    document.getElementById("video4").src = "https://www.googleapis.com/drive/v3/files/1yP_GxKHBJ3kC07OEz2XKEn_pa-XvBSHY?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video5_2() {
-    document.getElementById("video5").src = "https://www.googleapis.com/drive/v3/files/1x7p6-l7fB8ESKCNXFMQOZm9esvGC85K3?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video6_2() {
-    document.getElementById("video6").src = "https://www.googleapis.com/drive/v3/files/1EMx7mq9Wsk0xiJKX9HKOctuY8y9__uDn?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video7_2() {
-    document.getElementById("video7").src = "https://www.googleapis.com/drive/v3/files/1dxgDReUuLf7CRtyE0zoHyHZIDb-EwroQ?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video8_2() {
-    document.getElementById("video8").src = "https://www.googleapis.com/drive/v3/files/1YquWPS7b_XJDQP3bbC7YeL0k3Gv35sMi?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video9_2() {
-    document.getElementById("video9").src = "https://www.googleapis.com/drive/v3/files/1GXfLuvs94_yoUtWBAuZLX4srKVqjRkBA?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video10_2() {
-    document.getElementById("video10").src = "https://www.googleapis.com/drive/v3/files/1xWo5Olq8LWkOoafu7E0A8gg6oM9L6uq5?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video11_2() {
-    document.getElementById("video11").src = "https://www.googleapis.com/drive/v3/files/1BQw-JtdeJB2g4mZASFMt87xVOO45P6Hh?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video12_2() {
-    document.getElementById("video12").src = "https://www.googleapis.com/drive/v3/files/1vZHpE9VDIsnBo01anaJaySx23DRGAGek?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
+function video12() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#12 戰鬥小狗';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_12_end.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/織田肉桂信長/織田肉桂信長_1080P_12_end.mkv';
 }
