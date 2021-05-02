@@ -36,42 +36,29 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="/202001/index.html">2020冬番<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/線上看/2020/春/">2020春番</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/202004/index.html">2020春番</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/線上看/2020/夏/">2020夏番</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/202007/index.html">2020夏番</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/線上看/2020/秋/">2020秋番</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/202010/index.html">2020秋番</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        舊番
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">2020</a>
-                        <a class="dropdown-item" href="#">2019</a>
-                        <a class="dropdown-item" href="#">2018</a>
-                        <a class="dropdown-item" href="#">2017</a>
-                        <a class="dropdown-item" href="#">2016</a>
-                        <a class="dropdown-item" href="#">2015</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Others</a>
-                    </div>
+                    <a class="nav-link" href="/old/index.html">舊番</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Q&A.html">Q&A</a>
+                    <a class="nav-link" href="/Q&A.html">Q&amp;A</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="mailto:gokazeacg@gmail.com">聯繫我</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="/easteregg.html" tabindex="-1" aria-disabled="true">舉報</a>
+                    <a class="nav-link" href="/easteregg.html" tabindex="-1" aria-disabled="false">舉報</a>
                 </li>
             </ul>
-<a id="signin" href="account/index.html" target="_blank" style="display: unset;"><button
+            <a id="signin" href="account/index.html" target="_blank" style="display: unset;"><button
                     class="btn btn-outline-success my-2 my-sm-0" type="submit">登入</button></a>
             <div id="displayName" style="padding-right: 10px;"></div>
             <button class="btn btn-outline-success my-2 my-sm-0" id="logout" type="button">登出</button>
@@ -697,13 +684,13 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
 
-        <script src="/js/account.js"></script>
+    <script src="/js/account.js"></script>
     <script>
         firebase.auth().onAuthStateChanged(function (user) {
             if (user) {
-                
+
             }
-            else{
+            else {
                 location.href = "https://gokazeacg.ga";
                 window.open("/account/index.html");
                 alert('請先登入');
