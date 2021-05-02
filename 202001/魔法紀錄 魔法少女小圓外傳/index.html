@@ -79,6 +79,10 @@
                     <a class="nav-link disabled" href="/easteregg.html" tabindex="-1" aria-disabled="true">舉報</a>
                 </li>
             </ul>
+<a id="signin" href="account/index.html" target="_blank" style="display: unset;"><button
+                    class="btn btn-outline-success my-2 my-sm-0" type="submit">登入</button></a>
+            <div id="displayName" style="padding-right: 10px;"></div>
+            <button class="btn btn-outline-success my-2 my-sm-0" id="logout" type="button">登出</button>
         </div>
     </nav>
     <div class="onlinepage">
@@ -310,6 +314,27 @@
         }
     </script>
     <script id="dsq-count-scr" src="//gokazeacg.disqus.com/count.js" async></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+
+        <script src="/js/account.js"></script>
+    <script>
+        firebase.auth().onAuthStateChanged(function (user) {
+            if (user) {
+                
+            }
+            else{
+                location.href = "https://gokazeacg.ga";
+                window.open("/account/index.html");
+                alert('請先登入');
+            }
+        });
+    </script>
 </body>
 
 </html>
