@@ -29,7 +29,8 @@
     <script src="/ICON.JS"></script>
 </head>
 
-<body style="color:white; background: url('https://pbs.twimg.com/media/EVvIWzQU4AcJkbF.jpg') no-repeat fixed center center; background-size:cover;">
+<body
+    style="color:white; background: url('https://pbs.twimg.com/media/EVvIWzQU4AcJkbF.jpg') no-repeat fixed center center; background-size:cover;">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="/">GokazeACG</a>
@@ -78,7 +79,7 @@
                     <a class="nav-link disabled" href="/easteregg.html" tabindex="-1" aria-disabled="true">舉報</a>
                 </li>
             </ul>
-<a id="signin" href="account/index.html" target="_blank" style="display: unset;"><button
+            <a id="signin" href="account/index.html" target="_blank" style="display: unset;"><button
                     class="btn btn-outline-success my-2 my-sm-0" type="submit">登入</button></a>
             <div id="displayName" style="padding-right: 10px;"></div>
             <button class="btn btn-outline-success my-2 my-sm-0" id="logout" type="button">登出</button>
@@ -231,7 +232,7 @@
             preload: 'none',
             lrcType: 0,
             audio: [
-            {
+                {
                     name: 'Reverb',
                     artist: '內田彩',
                     url: 'https://drive.google.com/uc?export=view&id=1-pqJUr7ZL3cH3Y49z1dzghYZH35NgK97',
@@ -326,13 +327,13 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
 
-        <script src="/js/account.js"></script>
+    <script src="/js/account.js"></script>
     <script>
         firebase.auth().onAuthStateChanged(function (user) {
             if (user) {
-                
+
             }
-            else{
+            else {
                 location.href = "https://gokazeacg.ga";
                 window.open("/account/index.html");
                 alert('請先登入');
