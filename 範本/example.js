@@ -1,218 +1,134 @@
-document.getElementById("video1").src = "";
-document.getElementById("video2").src = "";
-document.getElementById("video3").src = "";
-document.getElementById("video4").src = "";
-document.getElementById("video5").src = "";
-document.getElementById("video6").src = "";
-document.getElementById("video7").src = "";
-document.getElementById("video8").src = "";
-document.getElementById("video9").src = "";
-document.getElementById("video10").src = "";
-document.getElementById("video11").src = "";
-document.getElementById("video12").src = "";
-document.getElementById("video13").src = "";
-document.getElementById("video14").src = "";
-document.getElementById("video15").src = "";
-document.getElementById("video16").src = "";
-document.getElementById("video17").src = "";
-document.getElementById("video18").src = "";
-document.getElementById("video19").src = "";
-document.getElementById("video20").src = "";
-document.getElementById("video21").src = "";
-document.getElementById("video22").src = "";
-document.getElementById("video23").src = "";
-document.getElementById("video24").src = "";
-
-//主要節點
-function video1_1() {
-    document.getElementById("video1").src = "";
+function dl() {
+    location.href='https://www.googleapis.com/drive/v3/files/1TKJzFk4WGyXUwxXvb9Fm_dl-Rtc9awYs?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media'
 }
 
-function video2_1() {
-    document.getElementById("video2").src = "";
+function dfaults() {
+    document.getElementById('zero').className = 'btn btn-light selectep';
+    document.getElementById('one').className = 'btn btn-light selectep';
+    document.getElementById('two').className = 'btn btn-light selectep';
+    document.getElementById('three').className = 'btn btn-light selectep';
+    document.getElementById('four').className = 'btn btn-light selectep';
+    document.getElementById('five').className = 'btn btn-light selectep';
+    document.getElementById('six').className = 'btn btn-light selectep';
+    document.getElementById('seven').className = 'btn btn-light selectep';
+    document.getElementById('eight').className = 'btn btn-light selectep';
+    document.getElementById('nine').className = 'btn btn-light selectep';
+    document.getElementById('ten').className = 'btn btn-light selectep';
+    document.getElementById('eleven').className = 'btn btn-light selectep';
+    document.getElementById('twelve').className = 'btn btn-light selectep';
 }
 
-function video3_1() {
-    document.getElementById("video3").src = "";
+function home() {
+    document.getElementById('home').style.display = 'unset';
+    document.getElementById('video').style.display = 'none';
+    document.getElementById('Episode').innerHTML = '故事大綱';
+    document.getElementById('zero').className = 'btn btn-primary selectep';
 }
 
-function video4_1() {
-    document.getElementById("video4").src = "";
+function video1() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('one').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#01 獨眼獨腳';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_01.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_01.mkv';
 }
 
-function video5_1() {
-    document.getElementById("video5").src = "";
+function video2() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('two').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#02 沼神大蛇在傾聽';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_02.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_02.mkv';
 }
 
-function video6_1() {
-    document.getElementById("video6").src = "";
+function video3() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('three').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#03 鋼人的傳聞';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_03.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_03.mkv';
 }
 
-function video7_1() {
-    document.getElementById("video7").src = "";
+function video4() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('four').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#04 偶像死於鋼筋';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_04.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_04.mkv';
 }
 
-function video8_1() {
-    document.getElementById("video8").src = "";
+function video5() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('five').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#05 想像力的怪物';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_05.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_05.mkv';
 }
 
-function video9_1() {
-    document.getElementById("video9").src = "";
+function video6() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('six').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#06 合理的虛構';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_06.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_06.mkv';
 }
 
-function video10_1() {
-    document.getElementById("video10").src = "";
+function video7() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('seven').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#07 鋼人攻略戰准備';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_07.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_07.mkv';
 }
 
-function video11_1() {
-    document.getElementById("video11").src = "";
+function video8() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('eight').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#08 構築虛構之人';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_08.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_08.mkv';
 }
 
-function video12_1() {
-    document.getElementById("video12").src = "";
+function video9() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('nine').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#09 鋼人七瀨攻略議會';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_09.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_09.mkv';
 }
 
-function video13_1() {
-    document.getElementById("video13").src = "";
+function video10() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('ten').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#10 爭奪虛構';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_10.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_10.mkv';
 }
 
-function video14_1() {
-    document.getElementById("video14").src = "";
+function video11() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('eleven').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#11 最後的虛構';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_11.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_11.mkv';
 }
 
-function video15_1() {
-    document.getElementById("video15").src = "";
-}
-
-function video16_1() {
-    document.getElementById("video16").src = "";
-}
-
-function video17_1() {
-    document.getElementById("video17").src = "";
-}
-
-function video18_1() {
-    document.getElementById("video18").src = "";
-}
-
-function video19_1() {
-    document.getElementById("video19").src = "";
-}
-
-function video20_1() {
-    document.getElementById("video20").src = "";
-}
-
-function video21_1() {
-    document.getElementById("video21").src = "";
-}
-
-function video22_1() {
-    document.getElementById("video22").src = "";
-}
-
-function video23_1() {
-    document.getElementById("video23").src = "";
-}
-
-function video24_1() {
-    document.getElementById("video24").src = "";
-}
-
-//備用節點
-function video1_2() {
-    document.getElementById('video1').src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video2_2() {
-    document.getElementById("video2").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video3_2() {
-    document.getElementById("video3").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video4_2() {
-    document.getElementById("video4").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video5_2() {
-    document.getElementById("video5").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video6_2() {
-    document.getElementById("video6").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video7_2() {
-    document.getElementById("video7").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video8_2() {
-    document.getElementById("video8").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video9_2() {
-    document.getElementById("video9").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video10_2() {
-    document.getElementById("video10").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video11_2() {
-    document.getElementById("video11").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video12_2() {
-    document.getElementById("video12").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video13_2() {
-    document.getElementById("video13").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video14_2() {
-    document.getElementById("video14").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video15_2() {
-    document.getElementById("video15").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video16_2() {
-    document.getElementById("video16").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media"
-}
-
-function video17_2() {
-    document.getElementById("video17").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video18_2() {
-    document.getElementById("video18").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video19_2() {
-    document.getElementById("video19").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video20_2() {
-    document.getElementById("video20").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video21_2() {
-    document.getElementById("video21").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video22_2() {
-    document.getElementById("video22").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video23_2() {
-    document.getElementById("video23").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
-}
-
-function video24_2() {
-    document.getElementById("video24").src = "https://www.googleapis.com/drive/v3/files/?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media";
+function video12() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('twelve').className = 'btn btn-primary selectep';
+    document.getElementById('Episode').innerHTML = '#12 秩序守護者';
+    document.getElementById('1080P').src = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_12.mkv';
+    document.getElementById('download').href = 'https://kazeindex.herokuapp.com/IndexB/Video/Anime/2020/01/虛構推理/虛構推理_1080P_12.mkv';
 }
