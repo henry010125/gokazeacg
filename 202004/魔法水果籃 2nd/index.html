@@ -12,10 +12,10 @@
     </script>
     <link rel="icon" type="image/x-icon" href="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content=",1080P,線上看">
+    <meta name="keywords" content="魔法水果籃 2nd,幻影天使,生肖奇緣,1080P,線上看">
     <meta charset="utf-8">
     <title>
-        掠奪者
+        魔法水果籃 2nd
     </title>
     <!--bootstrap 4.1 CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -30,7 +30,7 @@
 </head>
 
 <body
-    style="color:white; background: url('https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EWfAsJYB7RlGl91vhFApfRwBAn7Kt0AZ0IkSvrAPRqlKdQ?download=1') no-repeat fixed center center; background-size:cover;">
+    style="color:white; background: url('https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EbLIX_GYRApOlDwZeZJp84MBaHasnjJznWQKAowf2oH6QA?download=1') no-repeat fixed center center; background-size:cover;">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="/">GokazeACG</a>
@@ -75,7 +75,7 @@
     <div class="onlinepage">
         <div style="padding: 10px 10px 50px 10px;">
             <h2>
-                掠奪者
+                魔法水果籃 2nd
             </h2>
             <p style="text-align: center; padding-top: 30px;">
                 新版播放器如有多個影片畫質時，需先選擇畫質方可撥放
@@ -86,47 +86,69 @@
             </p>
             <div style="height: 50px;"></div>
             <div style="max-width: 600px; margin: 0px auto;display:table;">
-                <button type="button" class="btn btn-outline-success btn-lg"
-                    style="width: 30vw;min-width: 100px; max-width: 300px;" onclick="dl1()">下載part1</button>
-                <button type="button" class="btn btn-outline-success btn-lg"
-                    style="width: 30vw;min-width: 100px; max-width: 300px" onclick="dl2()">下載part2</button>
+                <button type="button" class="btn btn-outline-success btn-lg" style="width: 30vw;min-width: 250px;"
+                    onclick="dl()">下載</button>
             </div>
             <div style="height: 50px;"></div>
             <div style="display:block ;text-align: center;">
-                <button type="button" class="btn btn-light selectep" onclick="home()">簡介</button>
-                <button type="button" class="btn btn-light selectep" onclick="video1()">01</button>
-                <button type="button" class="btn btn-light selectep" onclick="video2()">02</button>
-                <button type="button" class="btn btn-light selectep" onclick="video3()">03</button>
-                <button type="button" class="btn btn-light selectep" onclick="video4()">04</button>
-                <button type="button" class="btn btn-light selectep" onclick="video5()">05</button>
-                <button type="button" class="btn btn-light selectep" onclick="video6()">06</button>
-                <button type="button" class="btn btn-light selectep" onclick="video7()">07</button>
-                <button type="button" class="btn btn-light selectep" onclick="video8()">08</button>
-                <button type="button" class="btn btn-light selectep" onclick="video9()">09</button>
-                <button type="button" class="btn btn-light selectep" onclick="video10()">10</button>
-                <button type="button" class="btn btn-light selectep" onclick="video11()">11</button>
-                <button type="button" class="btn btn-light selectep" onclick="video12()">12</button>
-                <button type="button" class="btn btn-light selectep" onclick="video13()">13</button>
-                <button type="button" class="btn btn-light selectep" onclick="video14()">14</button>
-                <button type="button" class="btn btn-light selectep" onclick="video15()">15</button>
-                <button type="button" class="btn btn-light selectep" onclick="video16()">16</button>
-                <button type="button" class="btn btn-light selectep" onclick="video17()">17</button>
-                <button type="button" class="btn btn-light selectep" onclick="video18()">18</button>
-                <button type="button" class="btn btn-light selectep" onclick="video19()">19</button>
-                <button type="button" class="btn btn-light selectep" onclick="video20()">20</button>
-                <button type="button" class="btn btn-light selectep" onclick="video21()">21</button>
-                <button type="button" class="btn btn-light selectep" onclick="video22()">22</button>
-                <button type="button" class="btn btn-light selectep" onclick="video23()">23</button>
-                <button type="button" class="btn btn-light selectep" onclick="video24()">24</button>
+                <button id="zero" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="home()">簡介</button>
+                <button id="one" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video1()">01</button>
+                <button id="two" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video2()">02</button>
+                <button id="three" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video3()">03</button>
+                <button id="four" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video4()">04</button>
+                <button id="five" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video5()">05</button>
+                <button id="six" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video6()">06</button>
+                <button id="seven" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video7()">07</button>
+                <button id="eight" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video8()">08</button>
+                <button id="nine" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video9()">09</button>
+                <button id="ten" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video10()">10</button>
+                <button id="eleven" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video11()">11</button>
+                <button id="twelve" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video12()">12</button>
+                <button id="thirteen" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video13()">13</button>
+                <button id="fourteen" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video14()">14</button>
+                <button id="fifteen" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video15()">15</button>
+                <button id="sixteen" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video16()">16</button>
+                <button id="seventeen" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video17()">17</button>
+                <button id="eighteen" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video18()">18</button>
+                <button id="nineteen" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video19()">19</button>
+                <button id="twenty" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video20()">20</button>
+                <button id="twentyone" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video21()">21</button>
+                <button id="twentytwo" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video22()">22</button>
+                <button id="twentythree" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video23()">23</button>
+                <button id="twentyfour" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video24()">24</button>
+                <button id="twentyfive" type="button" class="btn btn-light selectep" onmousedown="dfaults()"
+                    onclick="video25()">25</button>
             </div>
             <h3 id="Episode">故事大綱</h3>
             <div id="home">
                 <div style="height: 50px;"></div>
                 <p style="max-width: 800px;text-align: center;margin:0px auto;">
-                    艾爾西亞曆 305
-                    年。在這個由數字統治的世界，少女與一名男性邂逅了——曾經有一群人以壓倒性的力量在一場後世稱為「廢棄戰爭」的大戰裡將世界導向和平。
-                    那逐漸被人們遺忘的英雄名為——擊墜王。然而，當一名心懷強烈意志走上旅程的年幼少女道出此名之際，
-                    在這個由印於身上的數字決定人們價值的世界，一場震撼世界的嶄新故事開始了！
+                    積極開朗又有些「脫線」的女高中生－本田透，接連遭逢相依為命的媽媽意外車禍離世，原本好心收養她的爺爺家裡因為整修，小透只好以到朋友家住的名義暫時在森林裡搭起了帳篷居住，然而就是在這片草摩家的森林裡，小透重新認識了學校的「王子」草摩由希，也接觸到了草摩家的秘密。由於被詛咒的命運，草摩家的人過著痛苦的生活，每個人都有傷心的往事，積極又樂觀的小透的出現給草摩家帶來了笑容和希望。然而令人畏懼的「詛咒」真面目，卻依然在小透心頭揮之不去，面對草摩族人該前往的未來、早已定下的命運和沒有終點的十二生肖宴席，由希、夾、小透又會如何破解和抉擇呢？
                 </p><br />
                 <div id="carouselExampleIndicators" class="carousel slide ccdgfk" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -137,17 +159,16 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="d-block Slideshow"
-                                src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/ESpni1a9jxJPswTnVlcgAZ4BrHAd_f2ZPYJU3jtu9JeGwQ?download=1"
-                                alt="First slide">
+                                src="https://kazeacg-my.sharepoint.com/:u:/g/personal/henry_kazeacg_ga/ERe5sdn_cnFKoEW610pip8ABozS6hibCk1yvY1UyS_-w2w?download=1">
                         </div>
                         <div class="carousel-item">
                             <img class="d-block Slideshow"
-                                src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/Ef3p8bCwkvxKm2IM78U7YB4Bb0t0ku85l1bWMcIWcIiTOA?download=1"
+                                src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/Eejo1HvQVDFHrdRDamtqThsBKHG6Ne5j9y8JCk5Kj_PNmQ?download=1"
                                 alt="Second slide">
                         </div>
                         <div class="carousel-item">
                             <img class="d-block Slideshow"
-                                src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EcQ9B7n44ypNsH6n-WymQdQB-Vn41J4jTRIWCOpxS-nkvQ?download=1"
+                                src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EVkpG4rdo6pOrjpBmCrdK7kB6fbHf5Sj6vNHKeE9ujvQug?download=1"
                                 alt="Third slide">
                         </div>
                     </div>
@@ -164,7 +185,7 @@
                 <p style="font-size: xx-large;">PV</p>
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BZ4tgYhFWDQ"
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4CRioPnVIsM"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
@@ -200,7 +221,7 @@
                 <div style="width: 75vw;height: 42.1669106881vw;margin: 0px auto;margin-top: 20px;">
                     <div style="width: 100%;height: 100%;">
                         <video id="1080P"
-                            poster="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EcQ9B7n44ypNsH6n-WymQdQB-Vn41J4jTRIWCOpxS-nkvQ?download=1">
+                            poster="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EVkpG4rdo6pOrjpBmCrdK7kB6fbHf5Sj6vNHKeE9ujvQug?download=1">
                         </video>
                     </div>
                 </div>
@@ -228,31 +249,17 @@
             lrcType: 0,
             audio: [
                 {
-                    name: 'Plunderer',
-                    artist: '伊藤美來',
-                    url: 'https://drive.google.com/uc?export=view&id=1-iVQYBX6QCcRbr80EN5sV-WT2flEe5y5',
-                    cover: 'https://drive.google.com/uc?export=view&id=1alqw9WPiiGInJALA-x9Hn1QHviz3TvCa',
+                    name: '',
+                    artist: '',
+                    url: '',
+                    cover: '',
                     theme: '#ebd0c2'
                 },
                 {
-                    name: '孤高の光 Lonely dark',
-                    artist: '伊藤美來',
-                    url: 'https://drive.google.com/uc?export=view&id=1uxOTTy-DMVGfG8H7zO4EDxE8FlbrLNd6',
-                    cover: 'https://drive.google.com/uc?export=view&id=18m7kPSUEnujfE6IsD6ObTf_jieRZmZO_',
-                    theme: '#ebd0c2'
-                },
-                {
-                    name: 'Countless days',
-                    artist: '陽菜（本泉莉奈）',
-                    url: 'https://drive.google.com/uc?export=view&id=1V-2lOycMcCJgf9BxwVg16zWcEJAfqFS1',
-                    cover: 'https://drive.google.com/uc?export=view&id=1nLIpyc-_cQXXtYYolScyA9gm7RyfIdwW',
-                    theme: '#ebd0c2'
-                },
-                {
-                    name: 'Reason of Life',
-                    artist: '陽菜（本泉莉奈）、琳（小澤亞李）、七七（伊藤靜）',
-                    url: 'https://drive.google.com/uc?export=view&id=1qZWF6LDBeELzG7-o5mPsmbOI8Ae3ezvY',
-                    cover: 'https://drive.google.com/uc?export=view&id=11YMDpM0X34aFXgGS1J1etBbwSYw-joGV',
+                    name: '',
+                    artist: '',
+                    url: '',
+                    cover: '',
                     theme: '#ebd0c2'
                 },
             ]
@@ -266,7 +273,7 @@
     <!--plyr Javascript-->
     <script type="text/javascript" src="/js/plyr@3"></script>
 
-    <script type="text/javascript" src="/202001/掠奪者/sc.js"></script>
+    <script type="text/javascript" src="/202004/魔法水果籃 2nd/sc.js"></script>
     <!--CONAMICODE-->
     <script>
         var allowedKeys = {
