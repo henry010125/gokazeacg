@@ -274,29 +274,7 @@
             document.getElementById('disqus_show_button1').style.display = 'none';
         }
     </script>
-    <script id="dsq-count-scr" src="//gokazeacg.disqus.com/count.js" async></script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
-
-    <script src="/js/account.js"></script>
-    <script>
-        firebase.auth().onAuthStateChanged(function (user) {
-            if (user) {
-
-            }
-            else {
-                location.href = "https://gokazeacg.ga";
-                window.open("https://gokazeacg.ga/account/index.html");
-                alert('請先登入');
-            }
-        });
-        create();
-    </script>
 </body>
 
 </html>
