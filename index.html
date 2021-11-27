@@ -1,11 +1,6 @@
 <html>
 
 <head>
-    <!--Google Ads-->
-    <script data-ad-client="ca-pub-6407666987887924" async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!--Google Ads Finish-->
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130491192-3"></script>
     <script>
@@ -15,64 +10,21 @@
 
         gtag('config', 'UA-130491192-3');
     </script>
-
+    <!-- Google Analytics End -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         GokazeACG-首頁
     </title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/custom.css">
-    <script src="/ICON.JS"></script>
+    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="shortcut icon" href="../../img/icon.png" type="image/x-icon">
 </head>
 
 <body class="area" style="color:white;">
-    <div style=" margin-left: 10px;margin-right: 10px;margin: 0px auto;text-align:center">
-        <div class="container">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="/">GokazeACG</a>
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="navbar-collapse collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/202001/index.html">2020冬番<span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/202004/index.html">2020春番</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/202007/index.html">2020夏番</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/202010/index.html">2020秋番</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="/old/index.html">舊番</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Q&A.html">Q&amp;A</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="mailto:gokazeacg@gmail.com">聯繫我</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/easteregg.html" tabindex="-1" aria-disabled="false">舉報</a>
-                        </li>
-                    </ul>
-                    <a id="signin" href="account/index.html" target="_blank" style="display: unset;"><button
-                            class="btn btn-outline-success my-2 my-sm-0" type="submit">登入</button></a>
-                    <div id="displayName" style="padding-right: 10px;"></div>
-                    <button class="btn btn-outline-success my-2 my-sm-0" id="logout" type="button">登出</button>
-                </div>
-            </nav>
-        </div>
-        <div style="padding-top: 40vh; padding-bottom: 42vh;">
+    <div class="wrapper" style="text-align:center">
+        <script src="js/navbar2.js"></script>
+        <div style="padding-top: 40vh;">
             <p style="font-size: xxx-large;">
                 HOMEPAGE STILL BUILDING
             </p>
@@ -81,36 +33,18 @@
                     onclick="jump()">動畫列表</button>
             </div>
         </div>
-        <div class="footbar" style="position:sticky;margin-top: -8vh;">
-            所有資源皆蒐集自網路，如有侵權敬請告知<br>Copyright 2019-2020
-        </div>
+    </div>
+    <div class="footbar">
+        所有資源皆蒐集自網路，如有侵權敬請告知<br>Copyright 2019-2020
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script>
         function jump() {
             window.location.href = 'https://kazeacg-my.sharepoint.com/:x:/g/personal/henry_kazeacg_ga/ESRvvmT6PLRMkrac8IFaHKkBA_Q1hmd9iK4vXsrb6lKogA?e=xLcTog'
         }
     </script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+</body>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
-
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
-
-        <script src="/js/account.js"></script>
-    </body>
 </html>

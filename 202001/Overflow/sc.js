@@ -1,1 +1,73 @@
-;eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('f z(){A.h=\'4://B.C.5/D/E/F/G?H=q&I=q&J=K&L=M\'}f g(){0.1(\'g\').2.3=\'i\';0.1(\'j\').2.3=\'k\';0.1(\'l\').m=\'故事大綱\'}f N(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#6 和柔軟的姊妹在洗澡中\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/r.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/r.e\'}f O(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#P 身旁的她正在睡夢中\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/s.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/s.e\'}f Q(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#R 兩顆心正在接近中\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/t.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/t.e\'}f S(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#T 火熱的身體暴走中\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/u.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/u.e\'}f U(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#V 心跳不已的兩人潛伏中\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/v.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/v.e\'}f W(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#X 向你告白從我的心中\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/w.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/w.e\'}f Y(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#Z 以圍裙之姿誘惑中\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/x.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/x.e\'}f 10(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#11 沉迷於姊妹之中\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/y.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/y.e\'}',62,64,'document|getElementById|style|display|https|com|01|kazeindex|herokuapp|IndexB|Video|Anime|2020|Overflow|mp4|function|home|href|unset|video|none|Episode|innerHTML|1080P|src|download|true|Overflow_1080P_01|Overflow_1080P_02|Overflow_1080P_03|Overflow_1080P_04|Overflow_1080P_05|Overflow_1080P_06|Overflow_1080P_07|Overflow_1080P_08_end|dl|location|www|googleapis|drive|v3|files|105y6w_KaP0FsdojosABcTpdYv0CjQjvj|supportsAllDrives|supportsTeamDrives|key|AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ|alt|media|video1|video2|02|video3|03|video4|04|video5|05|video6|06|video7|07|video8|08'.split('|'),0,{}));
+function dl() {
+    location.href='https://www.googleapis.com/drive/v3/files/1SvvojiVcQDqybpQqQq370bJ5NIxBPl09?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media'
+}
+
+function home() {
+    document.getElementById('home').style.display = 'unset';
+    document.getElementById('video').style.display = 'none';
+    document.getElementById('Episode').innerHTML = '故事大綱';
+}
+
+function video1() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#01 和柔軟的姊妹在洗澡中';    
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_01.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_01.mp4';
+}
+
+function video2() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#02 身旁的她正在睡夢中';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_02.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_02.mp4';
+}
+
+function video3() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#03 兩顆心正在接近中';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_03.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_03.mp4';
+}
+
+function video4() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#04 火熱的身體暴走中';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_04.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_04.mp4';
+}
+
+function video5() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#05 心跳不已的兩人潛伏中';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_05.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_05.mp4';
+}
+
+function video6() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#06 向你告白從我的心中';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_06.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_06.mp4';
+}
+
+function video7() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#07 以圍裙之姿誘惑中';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_07.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_07.mp4';
+}
+
+function video8() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#08 沉迷於姊妹之中';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_08.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/Overflow/Overflow_1080P_08.mp4';
+}

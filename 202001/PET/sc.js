@@ -1,1 +1,99 @@
-;eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('f E(){F.h=\'4://G.H.5/I/J/K/L?M=q&N=q&O=P&Q=R\'}f g(){0.1(\'g\').2.3=\'i\';0.1(\'j\').2.3=\'k\';0.1(\'l\').m=\'故事大綱\'}f S(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#6 摧毀屋\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/r.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/r.e\'}f T(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#U "山"的景色\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/s.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/s.e\'}f V(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#W 工作\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/t.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/t.e\'}f X(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#Y 甕中之林\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/u.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/u.e\'}f Z(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#14 鎖\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/v.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/v.e\'}f 15(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#16 秘技\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/w.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/w.e\'}f 17(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#18 復仇\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/x.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/x.e\'}f 19(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#1a 策謀\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/y.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/y.e\'}f 1b(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#1c 風之道\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/z.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/z.e\'}f 1d(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#10 破裂的水槽\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/A.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/A.e\'}f 1e(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#11 重逢\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/B.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/B.e\'}f 1f(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#12 信鴿\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/C.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/C.e\'}f 1g(){0.1(\'g\').2.3=\'k\';0.1(\'j\').2.3=\'i\';0.1(\'l\').m=\'#13 彩虹\';0.1(\'n\').o=\'4://7.8.5/9/a/b/c/6/d/D.e\';0.1(\'p\').h=\'4://7.8.5/9/a/b/c/6/d/D.e\'}',62,79,'document|getElementById|style|display|https|com|01|kazeindex|herokuapp|IndexB|Video|Anime|2020|PET|mp4|function|home|href|unset|video|none|Episode|innerHTML|1080P|src|download|true|PET_1080P_01|PET_1080P_02|PET_1080P_03|PET_1080P_04|PET_1080P_05|PET_1080P_06|PET_1080P_07|PET_1080P_08|PET_1080P_09|PET_1080P_10|PET_1080P_11|PET_1080P_12|PET_1080P_13_end|dl|location|www|googleapis|drive|v3|files|1ecPSTI8WcgbXY9wfHaAYGuqkmxgWfZoB|supportsAllDrives|supportsTeamDrives|key|AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ|alt|media|video1|video2|02|video3|03|video4|04|video5|||||05|video6|06|video7|07|video8|08|video9|09|video10|video11|video12|video13'.split('|'),0,{}));
+function dl() {
+    location.href='https://www.googleapis.com/drive/v3/files/1ecPSTI8WcgbXY9wfHaAYGuqkmxgWfZoB?supportsAllDrives=true&supportsTeamDrives=true&key=AIzaSyCFXD7hsqD_zXh6Zt3Zd1bAHsJap3mvLvQ&alt=media'
+}
+function home() {
+    document.getElementById('home').style.display = 'unset';
+    document.getElementById('video').style.display = 'none';
+    document.getElementById('Episode').innerHTML = '故事大綱';
+}
+function video1() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#01 摧毀屋';    
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_01.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_01.mp4';
+}
+function video2() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#02 "山"的景色';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_02.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_02.mp4';
+}
+function video3() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#03 工作';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_03.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_03.mp4';
+}
+function video4() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#04 甕中之林';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_04.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_04.mp4';
+}
+function video5() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#05 鎖';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_05.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_05.mp4';
+}
+function video6() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#06 秘技';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_06.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_06.mp4';
+}
+function video7() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#07 復仇';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_07.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_07.mp4';
+}
+function video8() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#08 策謀';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_08.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_08.mp4';
+}
+function video9() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#09 風之道';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_09.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_09.mp4';
+}
+function video10() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#10 破裂的水槽';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_10.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_10.mp4';
+}
+function video11() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#11 重逢';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_11.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_11.mp4';
+}
+function video12() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#12 信鴿';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_12.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_12.mp4';
+}
+function video13() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('video').style.display = 'unset';
+    document.getElementById('Episode').innerHTML = '#13 彩虹';
+    document.getElementById('1080P').src = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_13.mp4';
+    document.getElementById('download').href = 'https://animeserver.azurewebsites.net/AnimeServer_backup_A/2020/01/思維覆寫/思維覆寫_1080P_13.mp4';
+}

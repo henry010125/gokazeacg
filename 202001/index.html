@@ -2,10 +2,6 @@
 <html>
 
 <head>
-    <!--Google Ads-->
-    <script data-ad-client="ca-pub-6407666987887924" async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!--Google Ads Finish-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130491192-3"></script>
     <script>
@@ -17,114 +13,24 @@
     </script>
     <!--Google Analytics Finish-->
     <meta charset="utf-8">
-    <link rel="icon" href="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="動畫、動漫、線上看">
     <title>2020年1月新番表</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/custom.css">
-    <script src="/ICON.JS"></script>
-    <script src="/js/navbar.js"></script>
+    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="shortcut icon" href="../../img/icon.png" type="image/x-icon">
 </head>
 
 <body class="area" style="color: white;" data-simplebar="">
     <div>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/">GokazeACG</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navbar" style="width: 100%;"></div>
-        </nav>
+        <script src="../../js/navbar2.js"></script>
     </div>
     <br /><br /><br />
     <div style="text-align: center;">
         <div class="container auto-fullwidth" style="display: inline-block;vertical-align : top;margin: 0px auto ;">
             <h1>2020年冬番表</h1>
             <br>
-            <select class="form-control" style="background-color: black; width: 150px;" onchange="week(this)">
-                <option value="all" selected>選擇播放時間</option>
-                <option value="mon">周一</option>
-                <option value="tue">週二</option>
-                <option value="wen">週三</option>
-                <option value="thi">週四</option>
-                <option value="fri">週五</option>
-                <option value="sat">週六</option>
-                <option value="sun">週日</option>
-            </select>
-            <script type="text/javascript">
-                function week(value) {
-                    var selectedOption = value.options[value.selectedIndex];
-                    //alert(selectedOption.value);
-                    if (selectedOption.value == "mon") {
-                        document.getElementById("monday").style.display = "unset";
-                        document.getElementById("tuesday").style.display = "none";
-                        document.getElementById("wednesday").style.display = "none";
-                        document.getElementById("thirsday").style.display = "none";
-                        document.getElementById("friday").style.display = "none";
-                        document.getElementById("saturday").style.display = "none";
-                        document.getElementById("sunday").style.display = "none";
-                    }
-                    else if (selectedOption.value == "tue") {
-                        document.getElementById("monday").style.display = "none";
-                        document.getElementById("tuesday").style.display = "unset";
-                        document.getElementById("wednesday").style.display = "none";
-                        document.getElementById("thirsday").style.display = "none";
-                        document.getElementById("friday").style.display = "none";
-                        document.getElementById("saturday").style.display = "none";
-                        document.getElementById("sunday").style.display = "none";
-                    } else if (selectedOption.value == "wen") {
-                        document.getElementById("monday").style.display = "none";
-                        document.getElementById("tuesday").style.display = "none";
-                        document.getElementById("wednesday").style.display = "unset";
-                        document.getElementById("thirsday").style.display = "none";
-                        document.getElementById("friday").style.display = "none";
-                        document.getElementById("saturday").style.display = "none";
-                        document.getElementById("sunday").style.display = "none";
-                    } else if (selectedOption.value == "thi") {
-                        document.getElementById("monday").style.display = "none";
-                        document.getElementById("tuesday").style.display = "none";
-                        document.getElementById("wednesday").style.display = "none";
-                        document.getElementById("thirsday").style.display = "unset";
-                        document.getElementById("friday").style.display = "none";
-                        document.getElementById("saturday").style.display = "none";
-                        document.getElementById("sunday").style.display = "none";
-                    } else if (selectedOption.value == "fri") {
-                        document.getElementById("monday").style.display = "none";
-                        document.getElementById("tuesday").style.display = "none";
-                        document.getElementById("wednesday").style.display = "none";
-                        document.getElementById("thirsday").style.display = "none";
-                        document.getElementById("friday").style.display = "unset";
-                        document.getElementById("saturday").style.display = "none";
-                        document.getElementById("sunday").style.display = "none";
-                    } else if (selectedOption.value == "sat") {
-                        document.getElementById("monday").style.display = "none";
-                        document.getElementById("tuesday").style.display = "none";
-                        document.getElementById("wednesday").style.display = "none";
-                        document.getElementById("thirsday").style.display = "none";
-                        document.getElementById("friday").style.display = "none";
-                        document.getElementById("saturday").style.display = "unset";
-                        document.getElementById("sunday").style.display = "none";
-                    } else if (selectedOption.value == "all") {
-                        document.getElementById("monday").style.display = "unset";
-                        document.getElementById("tuesday").style.display = "unset";
-                        document.getElementById("wednesday").style.display = "unset";
-                        document.getElementById("thirsday").style.display = "unset";
-                        document.getElementById("friday").style.display = "unset";
-                        document.getElementById("saturday").style.display = "unset";
-                        document.getElementById("sunday").style.display = "unset";
-                    } else {
-                        document.getElementById("monday").style.display = "none";
-                        document.getElementById("tuesday").style.display = "none";
-                        document.getElementById("wednesday").style.display = "none";
-                        document.getElementById("thirsday").style.display = "none";
-                        document.getElementById("friday").style.display = "none";
-                        document.getElementById("saturday").style.display = "none";
-                        document.getElementById("sunday").style.display = "unset";
-                    }
-                };
-            </script>
+            <script src="/js/weekselecter.js"></script>
             <div id="sunday">
                 <br>
                 <hr style="border: 3px solid red;">
@@ -133,7 +39,7 @@
                 <div class="row">
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/八十龜醬觀察日記 第2冊/index.html">
+                            <a href="/202001/八十龜醬觀察日記 第2冊/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EQhakyapJ95FqaiQK0GT11gBFqIJhcnEaJL-eh1MbcKTag?download=1"
                                     style="width:100%;">
                             </a>
@@ -141,7 +47,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/八十龜醬觀察日記 第2冊/index.html">
+                            <a href="/202001/八十龜醬觀察日記 第2冊/">
                                 <p class="title">八十龜醬觀察日記 第2冊</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -153,7 +59,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/異獸魔都/index.html">
+                            <a href="/202001/異獸魔都/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EYjCAie-EvtPvauHcFW67-QBCs1jQNn76tCITlyG4A8oYg?download=1"
                                     style="width:100%;">
                             </a>
@@ -161,7 +67,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/異獸魔都/index.html">
+                            <a href="/202001/異獸魔都/">
                                 <p class="title">異獸魔都</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -173,7 +79,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/別對映像研出手！/index.html">
+                            <a href="/202001/別對映像研出手！/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EYdbpZdkWrFAt3xtr5SWAWwBM0xAvPPiGjbrTNQI79ZEkQ?download=1"
                                     style="width:100%;">
                             </a>
@@ -181,7 +87,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/別對映像研出手！/index.html">
+                            <a href="/202001/別對映像研出手！/">
                                 <p class="title">別對映像研出手！</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -193,7 +99,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/異度侵入 ID INVADED/index.html">
+                            <a href="/202001/異度侵入 ID INVADED/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/ETkc_XWTk59BgJWarbqpZBABHFPyCCNREcknz-q3RUwPvg?download=1"
                                     style="width:100%;">
                             </a>
@@ -201,7 +107,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/異度侵入 ID INVADED/index.html">
+                            <a href="/202001/異度侵入 ID INVADED/">
                                 <p class="title">異度侵入 ID:INVADED</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -214,7 +120,7 @@
                     </div>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/Overflow/index.html">
+                            <a href="/202001/Overflow/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/Ea2HXzZCnydNqCb9CxRaP9cBs5fanKWjfo8qQvLJDgjpMQ?download=1"
                                     style="width:100%;">
                             </a>
@@ -222,7 +128,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/Overflow/index.html">
+                            <a href="/202001/Overflow/">
                                 <p class="title">Overflow-無修</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -243,7 +149,7 @@
 
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/房間露營△/index.html">
+                            <a href="/202001/房間露營△/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EdB8JmlxbMRPs5HeunfEZqcBmZnvvCbr8NzTgvk_xGWrcw?download=1"
                                     style="width:100%;">
                             </a>
@@ -251,7 +157,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/房間露營△/index.html">
+                            <a href="/202001/房間露營△/">
                                 <p class="title">房間露營△</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -264,7 +170,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/PET/index.html">
+                            <a href="/202001/PET/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/ETQ59BWtE0VCts8BIks3LiEByyfQ3WRcUssqtcVXEJZw5Q?download=1"
                                     style="width:100%;">
                             </a>
@@ -272,7 +178,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/PET/index.html">
+                            <a href="/202001/PET/">
                                 <p class="title">PET-思維覆寫</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -285,7 +191,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/成群結伴！西頓學園/index.html">
+                            <a href="/202001/成群結伴！西頓學園/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/ERyo7k6D-15ChdkbtqT-120BQf_c-c_TonemyyzMbUeilw?download=1"
                                     style="width:100%;">
                             </a>
@@ -293,7 +199,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/成群結伴！西頓學園/index.html">
+                            <a href="/202001/成群結伴！西頓學園/">
                                 <p class="title">成群結伴！西頓學園</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -306,7 +212,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/緣結熊本/index.html">
+                            <a href="/202001/緣結熊本/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EWViv5mit1tDjqWGeX3-QMsBoK4wvTbHxOO12SXVgsDLkA?download=1"
                                     style="width:100%;">
                             </a>
@@ -314,7 +220,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/緣結熊本/index.html">
+                            <a href="/202001/緣結熊本/">
                                 <p class="title">緣結熊本</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -334,7 +240,7 @@
                 <div class="row">
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/異世界四重奏2/index.html">
+                            <a href="/202001/異世界四重奏2/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EazoBBBx2WhJrYsiV14LROwByDt2bjyCdctuIUQUiT_aWg?download=1"
                                     style="width:100%;">
                             </a>
@@ -342,7 +248,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/異世界四重奏2/index.html">
+                            <a href="/202001/異世界四重奏2/">
                                 <p class="title">異世界四重奏2</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -355,7 +261,7 @@
                     <br />
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/魔術師歐菲_流浪之旅/index.html">
+                            <a href="/202001/魔術師歐菲_流浪之旅/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/ET_uZ1HqSOlGoVpZO2-KXCMBieW9p8CdW1kI9U9LZRGOcg?download=1"
                                     style="width:100%;">
                             </a>
@@ -363,7 +269,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/魔術師歐菲_流浪之旅/index.html">
+                            <a href="/202001/魔術師歐菲_流浪之旅/">
                                 <p class="title">
                                     魔術師歐菲
                                     <br />流浪之旅
@@ -386,7 +292,7 @@
                 <div class="row">
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/怕痛的我，把防禦力點滿就對了/index.html">
+                            <a href="/202001/怕痛的我，把防禦力點滿就對了/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EUDZVlc8EatGqQd-GsTVY_QB2ovdvfa-JegI05q2ym7xSg?download=1"
                                     style="width:100%;">
                             </a>
@@ -394,7 +300,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/怕痛的我，把防禦力點滿就對了/index.html">
+                            <a href="/202001/怕痛的我，把防禦力點滿就對了/">
                                 <p class="title">怕痛的我，把防禦力點滿就對了</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -407,7 +313,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/空挺Dragons/index.html">
+                            <a href="/202001/空挺Dragons/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EX_28J7QUO9EgISkhY49y2sBqieoDEuDh44m7ep3X5MkCw?download=1"
                                     style="width:100%;">
                             </a>
@@ -415,7 +321,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/空挺Dragons/index.html">
+                            <a href="/202001/空挺Dragons/">
                                 <p class="title">空挺Dragons</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -427,7 +333,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/掠奪者/index.html">
+                            <a href="/202001/掠奪者/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EasWy2BO-eVLlLie92a7cq0B-8fiwEhec96nSRTPIlMJCQ?download=1"
                                     style="width:100%;">
                             </a>
@@ -435,7 +341,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/掠奪者/index.html">
+                            <a href="/202001/掠奪者/">
                                 <p class="title">掠奪者</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -455,7 +361,7 @@
                 <div class="row">
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/貓娘樂園/index.html">
+                            <a href="/202001/貓娘樂園/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EXM7ZaQTFM1KpmWm_g9er0IBt0_OzJAZ9WCBxv2Ngwxf3A?download=1"
                                     style="width:100%;">
                             </a>
@@ -463,7 +369,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/貓娘樂園/index.html">
+                            <a href="/202001/貓娘樂園/">
                                 <p class="title">貓娘樂園</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -477,7 +383,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/搖滾少女!!活力棉花糖!!/index.html">
+                            <a href="/202001/搖滾少女!!活力棉花糖!!/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EaIGLpUPIMhDjLNneKqrDQQBes4NN9hqTqCTBuMiz2PnRg?download=1"
                                     style="width:100%;">
                             </a>
@@ -485,7 +391,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/搖滾少女!!活力棉花糖!!/index.html">
+                            <a href="/202001/搖滾少女!!活力棉花糖!!/">
                                 <p class="title">搖滾少女!!活力棉花糖!!</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -498,7 +404,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/〈Infinite Dendrogram〉-無盡連鎖-/index.html">
+                            <a href="/202001/〈Infinite Dendrogram〉-無盡連鎖-/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/Ec2D8Kcc8XdAhncGUXlkr5sBktIU0mM-Q7bwGx-uoD5M7w?download=1"
                                     style="width:100%;">
                             </a>
@@ -506,7 +412,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/〈Infinite Dendrogram〉-無盡連鎖-/index.html">
+                            <a href="/202001/〈Infinite Dendrogram〉-無盡連鎖-/">
                                 <p class="title">
                                     〈Infinite Dendrogram〉
                                     <br>-無盡連鎖-
@@ -522,7 +428,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/BanG Dream! 第三季/index.html">
+                            <a href="/202001/BanG Dream! 第三季/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/Ea-153I4PxtDn7gEfQbt9vsBF4Qp5uGkjjH6jVgaNlFLgg?download=1"
                                     style="width:100%;">
                             </a>
@@ -530,7 +436,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/BanG Dream! 第三季/index.html">
+                            <a href="/202001/BanG Dream! 第三季/">
                                 <p class="title">BanG Dream! 第三季</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -545,7 +451,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/奇幻☆怪盜/index.html">
+                            <a href="/202001/奇幻☆怪盜/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EbJRjpb5NkdCsO051jystfwBl14EIIqxZisei1aJvun1hw?download=1"
                                     style="width:100%;">
                             </a>
@@ -553,7 +459,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/奇幻☆怪盜/index.html">
+                            <a href="/202001/奇幻☆怪盜/">
                                 <p class="title">奇幻☆怪盜</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -564,7 +470,7 @@
                     </div>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/索瑪麗與森林之神/index.html">
+                            <a href="/202001/索瑪麗與森林之神/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/ESQxgXNJXPxMnstR4Rah7cYBeofRm3JXJmYfbteHyFPnMg?download=1"
                                     style="width:100%;">
                             </a>
@@ -572,7 +478,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/索瑪麗與森林之神/index.html">
+                            <a href="/202001/索瑪麗與森林之神/">
                                 <p class="title">索瑪麗與森林之神</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -584,7 +490,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/淘氣貓 喵喵三丁目/index.html">
+                            <a href="/202001/淘氣貓 喵喵三丁目/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/ETZ8ZKgVYFVBv7FvfnxcAnYB1h1zCkdzkrzv1K7WcfD6og?download=1"
                                     style="width:100%;">
                             </a>
@@ -592,7 +498,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/淘氣貓 喵喵三丁目/index.html">
+                            <a href="/202001/淘氣貓 喵喵三丁目/">
                                 <p class="title">淘氣貓 喵喵三丁目</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -604,7 +510,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/神推偶像登上武道館我就死而無憾/index.html">
+                            <a href="/202001/神推偶像登上武道館我就死而無憾/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EZsWNIA8539MqGYRxx1C7V8BvWqUl052RYFuEPQP4keuyg?download=1"
                                     style="width:100%;">
                             </a>
@@ -612,7 +518,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/神推偶像登上武道館我就死而無憾/index.html">
+                            <a href="/202001/神推偶像登上武道館我就死而無憾/">
                                 <p class="title">神推偶像登上武道館我就死而無憾</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -625,7 +531,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/寶石商人理察的謎鑑定/index.html">
+                            <a href="/202001/寶石商人理察的謎鑑定/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EcXt3NoD7JhNmDP6GFouGDIBp2_k81DV1d5A1wu9_wPZsg?download=1"
                                     style="width:100%;">
                             </a>
@@ -633,7 +539,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/寶石商人理察的謎鑑定/index.html">
+                            <a href="/202001/寶石商人理察的謎鑑定/">
                                 <p class="title">寶石商人理察的謎鑑定</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -646,7 +552,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/地縛少年花子君/index.html">
+                            <a href="/202001/地縛少年花子君/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EQgGl54tJ-5JjvqVOutn41cBDv-GxaWZdQJlZdynf4qYDQ?download=1"
                                     style="width:100%;">
                             </a>
@@ -654,7 +560,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/地縛少年花子君/index.html">
+                            <a href="/202001/地縛少年花子君/">
                                 <p class="title">地縛少年花子君</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -674,7 +580,7 @@
                 <div class="row">
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/戀愛中的小行星/index.html">
+                            <a href="/202001/戀愛中的小行星/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EclmPx_WPFdNjg0z9TmYRgwBCKoA9irvutduuNkqgqSMGg?download=1"
                                     style="width:100%;">
                             </a>
@@ -682,7 +588,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/戀愛中的小行星/index.html">
+                            <a href="/202001/戀愛中的小行星/">
                                 <p class="title">戀愛中的小行星</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -694,7 +600,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/科學超電磁砲T/index.html">
+                            <a href="/202001/科學超電磁砲T/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EeA-oQsO6QVBvqHg4fLeqxcBTfG28qC8EbwujNkBCtWiDA?download=1"
                                     style="width:100%;">
                             </a>
@@ -702,7 +608,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/科學超電磁砲T/index.html">
+                            <a href="/202001/科學超電磁砲T/">
                                 <p class="title">科學超電磁砲T</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -715,7 +621,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/達爾文遊戲/index.html">
+                            <a href="/202001/達爾文遊戲/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EYygODI4mkBKiVgKIkZtBvEBEGYeO8hByFEgLLqsvuQrZQ?download=1"
                                     style="width:100%;">
                             </a>
@@ -723,7 +629,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/達爾文遊戲/index.html">
+                            <a href="/202001/達爾文遊戲/">
                                 <p class="title">達爾文遊戲</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -738,7 +644,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/理科生墜入情網，故嘗試證明。/index.html">
+                            <a href="/202001/理科生墜入情網，故嘗試證明。/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EdOMxhSgKQtNmLh4mDSjjksBLK67rH5G0B_ofRL8j02UIw?download=1"
                                     style="width:100%;">
                             </a>
@@ -746,7 +652,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/理科生墜入情網，故嘗試證明。/index.html">
+                            <a href="/202001/理科生墜入情網，故嘗試證明。/">
                                 <p class="title">理科生墜入情網，故嘗試證明。</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -778,7 +684,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/排球少年！！TO THE TOP 第四季/index.html">
+                            <a href="/202001/排球少年！！TO THE TOP 第四季/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EQuzDe4sSVtOv7qQve0bT_MBHdEPzRkhG1-XyhKR0l0SCg?download=1"
                                     style="width:100%;">
                             </a>
@@ -786,7 +692,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/排球少年！！TO THE TOP 第四季/index.html">
+                            <a href="/202001/排球少年！！TO THE TOP 第四季/">
                                 <p class="title">排球少年！！TO THE TOP 第四季</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -798,7 +704,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/請在伸展台上微笑/index.html">
+                            <a href="/202001/請在伸展台上微笑/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EUhkK4fpS51OlhxMUm2fDh8BKiQfZ-FEm0UxaK_O9kR5kQ?download=1"
                                     style="width:100%;">
                             </a>
@@ -806,7 +712,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/請在伸展台上微笑/index.html">
+                            <a href="/202001/請在伸展台上微笑/">
                                 <p class="title">請在伸展台上微笑</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -827,7 +733,7 @@
                 <div class="row">
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/暗黑破壞神在身邊/index.html">
+                            <a href="/202001/暗黑破壞神在身邊/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/ET_BZeFgLUBOk7hpqwzmJMUBn2sYf8ikqD1_vcKTCEL_wg?download=1"
                                     style="width:100%;">
                             </a>
@@ -835,7 +741,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/暗黑破壞神在身邊/index.html">
+                            <a href="/202001/暗黑破壞神在身邊/">
                                 <p class="title">暗黑破壞神在身邊</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -847,7 +753,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover fontblack">
-                            <a href="/202001/22／7/index.html">
+                            <a href="/202001/22／7/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EYpkWqsaeVxEgAEwEwlzUQMBRFAi1r2W8SkasOtCx5D-zA?download=1"
                                     style="width:100%;">
                             </a>
@@ -855,7 +761,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/22／7/index.html">
+                            <a href="/202001/22／7/">
                                 <p class="title">22/7</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -868,7 +774,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/異種族風俗娘評鑑指南/index.html">
+                            <a href="/202001/異種族風俗娘評鑑指南/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EaJ9CSCGS9NJhc7nP0vEfp4BEEUAS04_gh-Edbq-6Ob6vg?download=1"
                                     style="width:100%;">
                             </a>
@@ -876,7 +782,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/異種族風俗娘評鑑指南/index.html">
+                            <a href="/202001/異種族風俗娘評鑑指南/">
                                 <p class="title">異種族風俗娘評鑑指南</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -889,7 +795,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/魔法紀錄 魔法少女小圓外傳/index.html">
+                            <a href="/202001/魔法紀錄 魔法少女小圓外傳/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EcaQZTzCK-JLmRkSK4L5pgABeNzXm9kF1YnUmpdRLWErkA?download=1"
                                     style="width:100%;">
                             </a>
@@ -897,7 +803,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/魔法紀錄 魔法少女小圓外傳/index.html">
+                            <a href="/202001/魔法紀錄 魔法少女小圓外傳/">
                                 <p class="title">
                                     魔法紀錄
                                     <br>魔法少女小圓外傳
@@ -913,7 +819,7 @@
                     <br>
                     <div class="col col-5 col-sm-5 col-md-4 col-lg-3 storyboard">
                         <div class="cover">
-                            <a href="/202001/虛構推理/index.html">
+                            <a href="/202001/虛構推理/">
                                 <img src="https://kazeacg-my.sharepoint.com/:i:/g/personal/henry_kazeacg_ga/EZ0TVJ4jytFHul94N7keiHgBoVxN7ucg-zL6W8tfR8nM5Q?download=1"
                                     style="width:100%;">
                             </a>
@@ -921,7 +827,7 @@
                         </div>
                         <br>
                         <div>
-                            <a href="/202001/虛構推理/index.html">
+                            <a href="/202001/虛構推理/">
                                 <p class="title">虛構推理</p>
                             </a>
                             <hr style="border-color: rgb(121, 121, 121);">
@@ -944,28 +850,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         crossorigin="anonymous"></script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
-
-    <script src="/js/account.js"></script>
-    <script>
-        firebase.auth().onAuthStateChanged(function (user) {
-            if (user) {
-
-            }
-            else {
-                location.href = "https://gokazeacg.ga";
-                window.open("https://gokazeacg.ga/account/index.html");
-                alert('請先登入');
-            }
-        });
-        create();
-    </script>
 </body>
 
 </html>

@@ -8,10 +8,22 @@ body {
     background-attachment: fixed;
 }
 
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -70px;
+}
+
+.area {
+height: 100%;
+}
+
 a {
     text-decoration: none !important;
 }
 
+.row {
+    margin-bottom: 20px;
+}
 /* 圖片輪播 */
 
 .Slideshow {
@@ -141,12 +153,11 @@ a {
 }
 
 .footbar {
+    line-height: 35px;
+    height: 70px;
     text-align: center;
     clear:both;
     background-color: #000000;
-    margin-top: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 .onlinepage {
@@ -163,6 +174,12 @@ a {
         margin-right: 100px;
         margin-top: 50px;
     }
+    .videofram {
+        width: 75vw;
+        height: 42.1669106881vw;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -171,13 +188,25 @@ a {
         margin-right: 60px;
         margin-top: 40px;
     }
+    .videofram {
+        width: 75vw;
+        height: 42.1669106881vw;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:768px) {
     .onlinepage {
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    .videofram {
+        width: 90vw;
+        height: 50.60029282572vw;
+        margin: 0px auto;
+        margin-top: 20px;
     }
 }
 
@@ -190,11 +219,23 @@ a {
     .alongcol {
         max-width: 312px;
     }
+    .videofram {
+        width: 75vw;
+        height: 42.1669106881vw;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:1899px) {
     .alongcol {
         max-width: 204px;
+    }
+    .videofram {
+        width: 75vw;
+        height: 42.1669106881vw;
+        margin: 0px auto;
+        margin-top: 20px;
     }
 }
 
@@ -202,16 +243,34 @@ a {
     .alongcol {
         max-width: 168px;
     }
+    .videofram {
+        width: 75vw;
+        height: 42.1669106881vw;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:991px) {
     .alongcol {
         max-width: 700px;
     }
+    .videofram {
+        width: 75vw;
+        height: 42.1669106881vw;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:767px) {
     .alongcol {
         max-width: 100%;
+    }
+    .videofram {
+        width: 90vw;
+        height: 50.60029282572vw;
+        margin: 0px auto;
+        margin-top: 20px;
     }
 }
